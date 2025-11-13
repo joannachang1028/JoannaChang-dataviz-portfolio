@@ -1,12 +1,5 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-# Title
-Text here...
-
-_For each step below, you should document your progress as you move forward.  In terms of tone, think of the writeup as though you're keeping journal of your step-by-step process.   You should include a any insights you gained from the critique method, and what it led you to think about when considering the redesign.  You should talk about how you moved next to the sketches, and any insights you gleaned from your user feedback.  Document what you changed based on the user feedback in your redesign.  Finally, talk about what your redesigned data visualization shows, why you selected the data visualization you did, and what you attempted to show or do differently._
-
-_You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
-
 # HPV Vaccination: Visualization Critique and Redesign Plan
 
 ## Step 1: The Visualization
@@ -75,10 +68,10 @@ For my redesign, I plan to:
 - Explore **multi-layered visuals** (e.g., combined trend + map dashboard) to enhance intuitiveness and insight.
 
 
-## Step three: Sketch a solution
+## Step 3: Sketch a solution
 
 
-## Step four: Test the solution
+## Step 4: Test the solution
 
 ### Questions Asked
 
@@ -125,7 +118,144 @@ Based on these patterns, the following improvements will be implemented in the f
 - Apply a **storytelling structure**, presenting each country’s *“before vs. after HPV policy adoption”* in a clear, focused layout.
 
 
-## Step five: build the solution
+# Step 4.5 Before Moving on to Redesign - Datasets Preparation & EDA on Change of policy on HPV schedule
+
+## Datasets I Used in Redesign
+
+To build a cohesive, data-driven redesign that connects **HPV vaccination policy**, **coverage**, and **cancer outcomes**, I integrated the following datasets from *Our World in Data (OWID)* and WHO sources:
+
+---
+
+### **1. HPV Vaccination Coverage Rate (%)**
+- **Source:** [Our World in Data – HPV vaccination coverage](https://ourworldindata.org/hpv-vaccination-world-can-eliminate-cervical-cancer)
+- **Description:** Annual data showing the **percentage of females** vaccinated against HPV by country and year.
+- **Purpose in redesign:** To visualize the **uptake trajectory** of HPV vaccines over time and assess whether policy adoption led to measurable increases in coverage.
+
+---
+
+### **2. Cervical Cancer Incidence / Cases / Accumulative Risk**
+- **Source:** [Our World in Data – Cervical cancer incidence](https://ourworldindata.org/cervical-cancer)
+- **Description:** WHO-compiled time-series data showing **new cervical cancer cases per 100,000 women** by country and year.
+- **Purpose in redesign:** To examine **long-term health outcomes** associated with HPV vaccination coverage, and visualize **pre- vs. post-policy** trends in cervical cancer incidence.
+
+---
+
+### **3. HPV Immunization Schedule (Policy Adoption Dataset)**
+- **Source:** [Our World in Data – HPV immunization schedule (WHO policy dataset)](https://ourworldindata.org/explorers/which-countries-include-hpv-vaccines)
+- **Description:** Historical record of **which countries include the HPV vaccine in their national immunization programs**, with yearly status values:
+  - “Not routinely administered”  
+  - “Subnational”  
+  - “Entire country”  
+- **Purpose in redesign:** Serves as the **policy timeline backbone**, identifying **the year each country transitioned** to national HPV vaccination—used to align coverage and cancer trends for comparative analysis.
+
+---
+
+### **Integration Objective**
+By combining these datasets, the redesigned visualization connects **policy action → coverage increase → cancer risk reduction**, creating a unified narrative that was missing from the original fragmented charts.
+
+
+## Why I Need EDA on This Dataset
+
+### **Goal**
+The public map comparing policies at two isolated years on the world map to policy change all over the world.  
+I need the **exact transition year for every country** that moved HPV vaccination into national coverage so I can align those policy shifts with downstream outcomes such as **cancer incidence** or **vaccine coverage**.
+
+#### **Redesign Use**
+With change years in hand, I can merge this policy timeline with time-series data on **cancer risk** and **vaccination coverage** to answer:  
+> *What happened after each country switched to national HPV vaccination?*
+
+---
+
+### **Datasets I Used for Redesign**
+
+1. Open the *“Which countries include HPV vaccines…”* explorer on [Our World in Data](https://ourworldindata.org/).
+2. Switch from the **map** to the **table** interface.
+3. Use filters:  
+   - Region dropdown → select desired region (e.g., *Asia*).  
+   - Year slider → isolate the subset of interest.
+4. Export the filtered table (click the **download icon**) to obtain the **CSV** recording each country-year policy status.
+
+---
+
+## **EDA on HPV_immunization_schedule**
+
+### **1. Load and Clean the Data**
+Renamed key columns for clarity:
+- `"Entity"` → `"Country"`
+- Long policy column → `"Status for Vaccination"`
+
+Performed sanity checks using `.shape` and `.head()`.
+
+```python
+# EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 177–183)
+df.rename(columns={
+    'Entity': 'Country',
+    'Which countries include the human papillomavirus vaccine (HPV) in their national vaccination programs?': 'Status for Vaccination'
+}, inplace=True)
+print(df.head(20))
+
+### **2. Identify First Policy Change** 
+
+Found all countries that ever left **“Not routinely administered”**, capturing each country’s **first change year** and **new status**.
+
+```python
+# EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 233–263)
+
+df_sorted = df.sort_values(['Country', 'Year'])
+
+countries_with_change.append({
+    'Country': country,
+    'Code': first_non_admin.iloc[0]['Code'],
+    'Year of Change': first_change_year,
+    'New Status': new_status
+})
+
+countries_changed = pd.DataFrame(countries_with_change)
+
+
+### **3. Focus on National Coverage Adoption**
+
+Filtered to countries moving specifically to “Entire country”, summarized counts, and visualized the timing distribution.
+
+# EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 291–353)
+
+countries_changed_to_entire_country = countries_changed[
+    countries_changed['New Status'] == 'Entire country'
+]
+
+sns.histplot(countries_changed_to_entire_country['Year of Change'], kde=True)
+
+### **4. Filter to Cancer Data Window (2006–2014)**
+
+Selected the subset matching the available cancer data.
+
+# EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 392–399)
+
+countries_changed_to_entire_country = countries_changed_to_entire_country[
+    countries_changed_to_entire_country['Year of Change'].isin(range(2006, 2014))
+]
+
+print(countries_changed_to_entire_country.head(20))
+
+### **5. Extract First Eight Adopters**
+
+Saved the first 8 early-adopting countries for further analysis.
+
+# EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 425–435)
+
+countries_changed_to_entire_country = countries_changed_to_entire_country.head(8)
+countries_changed_to_entire_country.to_csv(
+    'First 8 countries_changed_to_national_coverage.csv', 
+    index=False
+)
+
+### Next Steps
+
+Merge policy change years with cancer incidence and vaccination coverage datasets.
+Visualize pre- and post-policy shifts to evaluate how national HPV program adoption affects health outcomes.
+Note: Since in other two datasets, we don't have data for Monaco, we exclude it for analysis and comparison.
+
+## Step 5: build the solution
 
 _Include and describe your final solution here. It's also a good idea to summarize your thoughts on the process overall. When you're done with the assignment, this page should all the items mentioned in the assignment page on Canvas(a link or screenshot of the original data visualization, documentation explaining your process, a summary of your wireframes and user feedback, your final, redesigned data visualization, etc.)._
 
