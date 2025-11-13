@@ -80,47 +80,50 @@ For my redesign, I plan to:
 
 ## Step four: Test the solution
 
-Questions asked
+### Questions Asked
 
-Tell me what you think upon seeing the chart.
+- Tell me what you think upon seeing the chart.  
+- Can you describe what this is telling you?  
+- Is there anything surprising or confusing?  
+- Who do you think is the intended audience?  
+- What recommendations would you make to improve the design?
 
-Can you describe what this is telling you?
+---
 
-Is there anything surprising or confusing?
+### Results
 
-Who do you think is the intended audience?
+| **Question / Theme** | **Interview 1** | **Interview 2** |
+|------------------------|-----------------|-----------------|
+| **Clarity of cancer case numbers** | Asked whether the cancer case numbers shown below the chart directly correspond to the years above it. The alignment between values and years wasn't immediately clear. | Shared the same confusion—wasn’t sure if the numbers matched the correct years due to how they were displayed. |
+| **Chart type preference** | Suggested using a line graph for cancer cases instead of bar-style annotations, noting it would make trends more intuitive. | Agreed that a separate line on the secondary (right) y-axis would improve readability. |
+| **Comparing countries** | Mentioned that showing all countries’ vaccination coverage and cancer incidence on one graph is overwhelming. | Recommended using filters, pages, or country-by-country toggles to let users view changes for each country individually after they implemented national HPV vaccination. |
 
-What recommendations would you make to improve the design?
+---
 
-Results
-Question / Theme	Interview 1	Interview 2
-Clarity of cancer case numbers	Asked whether the cancer case numbers shown below the chart directly correspond to the years above it. The alignment between values and years wasn't immediately clear.	Shared the same confusion—wasn’t sure if the numbers matched the correct years due to how they were displayed.
-Chart type preference	Suggested using a line graph for cancer cases instead of bar-style annotations, noting it would make trends more intuitive.	Agreed that a separate line on the secondary (right) y-axis would improve readability.
-Comparing countries	Mentioned that showing all countries’ vaccination coverage and cancer incidence on one graph is overwhelming.	Recommended using filters, pages, or country-by-country toggles to let users view changes for each country individually after they implemented national HPV vaccination.
-Synthesis
+### Synthesis
 
-Across both interviews, the feedback revealed three consistent themes:
+Across both interviews, the feedback revealed **three consistent themes**:
 
-Ambiguity in value–year alignment:
+#### 1. Ambiguity in value–year alignment  
 Viewers were unsure whether the numerical labels below the chart corresponded cleanly to the timeline above. This suggests that labeling, positioning, or axis relationships need to be clarified.
 
-Cancer incidence should be visualized as a trend line:
+#### 2. Cancer incidence should be visualized as a trend line  
 Both classmates independently recommended using a line graph—paired with a secondary y-axis—to better show how cancer cases change over time. This strengthens the argument that the current representation feels unintuitive.
 
-Comparing all countries at once is overwhelming:
+#### 3. Comparing all countries at once is overwhelming  
 Showing every country’s vaccination coverage and cancer incidence on a single graph creates visual clutter and makes interpretation difficult. Filters, country selectors, or paginated views would make the narrative more digestible and allow users to see how each country’s HPV policy affected outcomes over time.
 
-Design changes inspired by the feedback
+---
 
-Based on these patterns, here are the design improvements I plan to implement in the final redesign:
+### Design Changes Inspired by the Feedback
 
-Replace numeric annotations with a clear trend line for cancer incidence, displayed on its own y-axis.
+Based on these patterns, the following improvements will be implemented in the final redesign:
 
-Improve alignment and labeling so that years and cancer values clearly match.
+- Replace **numeric annotations** with a **trend line** for cancer incidence, displayed on a secondary y-axis.  
+- Improve **alignment and labeling** so that years and cancer values clearly correspond.  
+- Introduce **interactivity** with toggles or filters to select countries individually.  
+- Apply a **storytelling structure**, presenting each country’s *“before vs. after HPV policy adoption”* in a clear, focused layout.
 
-Introduce interactivity, allowing users to toggle or filter by country instead of displaying all lines at once.
-
-Use storytelling structure, showing each country’s “before vs. after HPV policy adoption” in a clean, focused view.
 
 ## Step five: build the solution
 
