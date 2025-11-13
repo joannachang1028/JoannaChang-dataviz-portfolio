@@ -7,65 +7,73 @@ _For each step below, you should document your progress as you move forward.  In
 
 _You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
 
-## Step one: the visualization
+# HPV Vaccination: Visualization Critique and Redesign Plan
 
-For this assignment, I selected the visualization series from “HPV vaccination: How the world can eliminate cervical cancer” published by Our World in Data. The article and all visualizations can be accessed at the following link:
-https://ourworldindata.org/hpv-vaccination-world-can-eliminate-cervical-cancer
+## Step 1: The Visualization
 
+For this assignment, I selected the visualization series from  
+**“HPV vaccination: How the world can eliminate cervical cancer”**  
+published by *Our World in Data*.  
+
+🔗 **Source:** [Our World in Data – HPV vaccination](https://ourworldindata.org/hpv-vaccination-world-can-eliminate-cervical-cancer)
+
+---
+
+### **Why I Chose This Visualization**
 I chose this set of visualizations because HPV vaccination is a highly consequential global health issue, and this article includes multiple charts exploring different aspects of cervical cancer prevention—from historical cervical cancer incidence in the UK, to global HPV vaccination policies, to cross-country differences in vaccination coverage.
 
-The first graphic, which shows cervical cancer incidence by birth cohort in the UK, particularly stood out to me. It clearly illustrates how dramatically cancer rates dropped among women who received the HPV vaccine as teenagers. The visualization isolates birth cohorts in a way that makes the impact of vaccination policies easy to grasp at a glance.
+The **first graphic**, showing *cervical cancer incidence by birth cohort in the UK*, particularly stood out to me. It clearly illustrates how dramatically cancer rates dropped among women who received the HPV vaccine as teenagers. The visualization isolates birth cohorts in a way that makes the impact of vaccination policies easy to grasp at a glance.
 
-However, as the article progresses, the visualizations—while individually strong—begin to feel fragmented in their messaging. One chart shows incidence across different countries, another shows which countries have national HPV programs, and others show global vaccination coverage. Although each chart tells its own clear story, it’s harder for viewers to synthesize how policy adoption, vaccination rates, and cancer outcomes interrelate. This gap in narrative cohesion is what I plan to focus on in my redesign.
+However, as the article progresses, the visualizations—while individually strong—begin to feel fragmented in their messaging. One chart shows incidence across different countries, another shows which countries have national HPV programs, and others show global vaccination coverage. Although each chart tells its own clear story, it’s harder for viewers to synthesize how policy adoption, vaccination rates, and cancer outcomes interrelate.  
+➡️ This **lack of narrative cohesion** is what I plan to address in my redesign.
 
-## Step two: the critique
-Below are the ratings I provided in the critique rubric:
+---
 
-Usefulness: 8/10
-The visualizations are informative and communicate valuable insights, especially the UK birth-cohort chart.
+## Step 2: The Critique
 
-Completeness: 8/10
-Each chart includes relevant information, but collectively they lack a cohesive storyline that ties all components together.
+### **Rubric Ratings**
 
-Perceptibility: 7/10
-Most visuals are clear, but viewers must navigate across multiple graphs to understand the full picture.
+| Category        | Score | Comments                                                                 |
+|-----------------|:-----:|--------------------------------------------------------------------------|
+| **Usefulness**  | 8/10  | Informative and insightful, especially the UK birth-cohort chart.       |
+| **Completeness**| 8/10  | Strong individually, but lack a cohesive overarching narrative.          |
+| **Perceptibility** | 7/10 | Clear visuals, but users must navigate multiple charts for full context.|
+| **Truthfulness** | 9/10 | Accurate, transparent, and well-sourced data.                           |
+| **Intuitiveness**| 8/10 | Good interactivity; some charts require prior context.                  |
+| **Aesthetics**  | 7/10  | Clean OWID style; minor color contrast issues.                          |
+| **Engagement**  | 7/10  | Interesting visuals, but fragmented structure limits immersion.          |
 
-Truthfulness: 9/10
-The visualizations are accurate, well-sourced, and do not appear to misrepresent the data.
+---
 
-Intuitiveness: 8/10
-Interactivity helps users explore the data, though some charts may require prior context to fully appreciate.
+### **Overall Observations**
+The visualizations are effective when viewed individually—each highlights a different aspect of HPV vaccination’s impact or global policy adoption.  
+The **UK cohort chart** is especially impactful in showing how early vaccination prevents cervical cancer later in life.  
+Interactive **world maps** also enhance engagement, allowing users to explore geographic variations and trends.
 
-Aesthetics: 7/10
-Clean and consistent with the Our World in Data style, but some color contrasts could be improved.
+---
 
-Engagement: 7/10
-The visuals draw interest, but the fragmented structure limits how deeply users can follow the overall narrative.
+### ✅ **What Works Well**
+- Strong interactivity (hovering, filtering, time series).
+- Clear color coding and readable layouts.
+- Effective storytelling within each individual visualization.
+- Reliable and transparent data sources.
 
-Overall observations:
-The visualizations work well individually—each one highlights a specific aspect of HPV vaccination impact or global policy adoption. The UK cohort chart is especially impactful in showing how early vaccination prevents cervical cancer later in life. Interactive world maps also effectively display geographic differences and allow users to explore patterns at their own pace.
+---
 
-What works well:
+### ⚠️ **What Could Be Improved**
+- Lack of **unified narrative** across charts.  
+- Requires switching between graphs to see relationships among *policy*, *coverage*, and *incidence*.  
+- Missing **integrated contextual layers** combining vaccination and outcome data.  
+- Slight **color inconsistencies** reduce cohesiveness.
 
-Strong interactivity (hover, filtering, time series).
+---
 
-Clear color coding and readable layouts.
+### **Redesign Focus**
+For my redesign, I plan to:
+- Improve **narrative cohesion** by integrating key dimensions (policy adoption, vaccination rates, and cancer outcomes).  
+- Use **consistent color schemes** and **visual hierarchy** to tie the story together.  
+- Explore **multi-layered visuals** (e.g., combined trend + map dashboard) to enhance intuitiveness and insight.
 
-Strong storytelling within each standalone visualization.
-
-Reliable and trustworthy data sources.
-
-What doesn’t work well:
-
-The different charts do not build a unified narrative as a whole.
-
-Readers must jump between multiple graphs to understand the relationship between policy adoption, vaccination coverage, and cancer incidence.
-
-Additional contextual layers—such as showing incidence and vaccination rates together—could deepen understanding.
-
-Color schemes vary slightly across charts, reducing cohesiveness.
-
-These insights will guide my redesign, where I aim to improve narrative cohesion and integrate multiple data dimensions into a single, intuitive story.
 
 ## Step three: Sketch a solution
 
