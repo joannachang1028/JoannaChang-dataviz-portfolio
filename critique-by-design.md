@@ -118,9 +118,12 @@ Based on these patterns, the following improvements will be implemented in the f
 - Apply a **storytelling structure**, presenting each country’s *“before vs. after HPV policy adoption”* in a clear, focused layout.
 
 
-# Step 4.5 Before Moving on to Redesign - Datasets Preparation & EDA on Change of policy on HPV schedule
+# Step 4.5 — Before Moving on to Redesign  
+## Datasets Preparation & EDA on Change of Policy on HPV Schedule
 
-## Datasets I Used in Redesign
+---
+
+## 🧩 Datasets I Used in Redesign
 
 To build a cohesive, data-driven redesign that connects **HPV vaccination policy**, **coverage**, and **cancer outcomes**, I integrated the following datasets from *Our World in Data (OWID)* and WHO sources:
 
@@ -129,52 +132,58 @@ To build a cohesive, data-driven redesign that connects **HPV vaccination policy
 ### **1. HPV Vaccination Coverage Rate (%)**
 - **Source:** [Our World in Data – HPV vaccination coverage](https://ourworldindata.org/hpv-vaccination-world-can-eliminate-cervical-cancer)
 - **Description:** Annual data showing the **percentage of females** vaccinated against HPV by country and year.
-- **Purpose in redesign:** To visualize the **uptake trajectory** of HPV vaccines over time and assess whether policy adoption led to measurable increases in coverage.
+- **Purpose in Redesign:** To visualize the **uptake trajectory** of HPV vaccines over time and assess whether policy adoption led to measurable increases in coverage.
 
 ---
 
 ### **2. Cervical Cancer Incidence / Cases / Accumulative Risk**
 - **Source:** [Our World in Data – Cervical cancer incidence](https://ourworldindata.org/cervical-cancer)
 - **Description:** WHO-compiled time-series data showing **new cervical cancer cases per 100,000 women** by country and year.
-- **Purpose in redesign:** To examine **long-term health outcomes** associated with HPV vaccination coverage, and visualize **pre- vs. post-policy** trends in cervical cancer incidence.
+- **Purpose in Redesign:** To examine **long-term health outcomes** associated with HPV vaccination coverage, and visualize **pre- vs. post-policy** trends in cervical cancer incidence.
 
 ---
 
 ### **3. HPV Immunization Schedule (Policy Adoption Dataset)**
 - **Source:** [Our World in Data – HPV immunization schedule (WHO policy dataset)](https://ourworldindata.org/explorers/which-countries-include-hpv-vaccines)
-- **Description:** Historical record of **which countries include the HPV vaccine in their national immunization programs**, with yearly status values:
+- **Description:** Historical record of **which countries include the HPV vaccine in their national immunization programs**, with yearly status values:  
   - “Not routinely administered”  
   - “Subnational”  
   - “Entire country”  
-- **Purpose in redesign:** Serves as the **policy timeline backbone**, identifying **the year each country transitioned** to national HPV vaccination—used to align coverage and cancer trends for comparative analysis.
+- **Purpose in Redesign:** Serves as the **policy timeline backbone**, identifying **the year each country transitioned** to national HPV vaccination—used to align coverage and cancer trends for comparative analysis.
 
 ---
 
 ### **Integration Objective**
-By combining these datasets, the redesigned visualization connects **policy action → coverage increase → cancer risk reduction**, creating a unified narrative that was missing from the original fragmented charts.
+By combining these datasets, the redesigned visualization connects  
+**policy action → coverage increase → cancer risk reduction**,  
+creating a unified narrative that was missing from the original fragmented charts.
 
-## **EDA on HPV_immunization_schedule**
+---
 
-### **1. Load and Clean the Data**
+🔍 EDA on HPV_immunization_schedule
+1. Load and Clean the Data
+
 Renamed key columns for clarity:
-- `"Entity"` → `"Country"`
-- Long policy column → `"Status for Vaccination"`
 
-Performed sanity checks using `.shape` and `.head()`.
+"Entity" → "Country"
 
-```python
+Long policy column → "Status for Vaccination"
+
+Performed sanity checks using .shape and .head().
+
 # EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 177–183)
+
 df.rename(columns={
     'Entity': 'Country',
     'Which countries include the human papillomavirus vaccine (HPV) in their national vaccination programs?': 'Status for Vaccination'
 }, inplace=True)
+
 print(df.head(20))
 
-### **2. Identify First Policy Change** 
+2. Identify First Policy Change
 
-Found all countries that ever left **“Not routinely administered”**, capturing each country’s **first change year** and **new status**.
+Found all countries that ever left "Not routinely administered", capturing each country’s first change year and new status.
 
-```python
 # EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 233–263)
 
 df_sorted = df.sort_values(['Country', 'Year'])
@@ -188,10 +197,9 @@ countries_with_change.append({
 
 countries_changed = pd.DataFrame(countries_with_change)
 
+3. Focus on National Coverage Adoption
 
-### **3. Focus on National Coverage Adoption**
-
-Filtered to countries moving specifically to “Entire country”, summarized counts, and visualized the timing distribution.
+Filtered to countries moving specifically to "Entire country", summarized counts, and visualized the timing distribution.
 
 # EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 291–353)
 
@@ -201,7 +209,7 @@ countries_changed_to_entire_country = countries_changed[
 
 sns.histplot(countries_changed_to_entire_country['Year of Change'], kde=True)
 
-### **4. Filter to Cancer Data Window (2006–2014)**
+4. Filter to Cancer Data Window (2006–2014)
 
 Selected the subset matching the available cancer data.
 
@@ -213,7 +221,7 @@ countries_changed_to_entire_country = countries_changed_to_entire_country[
 
 print(countries_changed_to_entire_country.head(20))
 
-### **5. Extract First Eight Adopters**
+5. Extract First Eight Adopters
 
 Saved the first 8 early-adopting countries for further analysis.
 
@@ -221,23 +229,36 @@ Saved the first 8 early-adopting countries for further analysis.
 
 countries_changed_to_entire_country = countries_changed_to_entire_country.head(8)
 countries_changed_to_entire_country.to_csv(
-    'First 8 countries_changed_to_national_coverage.csv', 
+    'First 8 countries_changed_to_national_coverage.csv',
     index=False
 )
 
-### Next Steps
+Note
 
-Merge policy change years with cancer incidence and vaccination coverage datasets.
-Visualize pre- and post-policy shifts to evaluate how national HPV program adoption affects health outcomes.
-Note: Since in other two datasets, we don't have data for Monaco, we exclude it for analysis and comparison.
+Since in the other two datasets we don't have data for Monaco, we exclude it from analysis and comparison.
 
-## Step 5: build the solution
+Step 5: Build the Solution
 
-_Include and describe your final solution here. It's also a good idea to summarize your thoughts on the process overall. When you're done with the assignment, this page should all the items mentioned in the assignment page on Canvas(a link or screenshot of the original data visualization, documentation explaining your process, a summary of your wireframes and user feedback, your final, redesigned data visualization, etc.)._
+Include and describe your final solution here.
 
-## References
-_List any references you used here._
+It’s also a good idea to summarize:
 
-## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+The original data visualization (screenshot or link)
 
+Documentation explaining your entire workflow
+
+Summary of wireframes and user feedback
+
+Final redesigned data visualization
+
+Any comparisons or insights you derived
+
+When finished, this page should contain all the deliverables required on Canvas.
+
+References
+
+List any references you used here.
+
+AI Acknowledgements
+
+If you used AI to help complete this assignment (within course guidelines), describe your usage here.
