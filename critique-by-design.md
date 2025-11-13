@@ -153,30 +153,6 @@ To build a cohesive, data-driven redesign that connects **HPV vaccination policy
 ### **Integration Objective**
 By combining these datasets, the redesigned visualization connects **policy action → coverage increase → cancer risk reduction**, creating a unified narrative that was missing from the original fragmented charts.
 
-
-## Why I Need EDA on This Dataset
-
-### **Goal**
-The public map comparing policies at two isolated years on the world map to policy change all over the world.  
-I need the **exact transition year for every country** that moved HPV vaccination into national coverage so I can align those policy shifts with downstream outcomes such as **cancer incidence** or **vaccine coverage**.
-
-#### **Redesign Use**
-With change years in hand, I can merge this policy timeline with time-series data on **cancer risk** and **vaccination coverage** to answer:  
-> *What happened after each country switched to national HPV vaccination?*
-
----
-
-### **Datasets I Used for Redesign**
-
-1. Open the *“Which countries include HPV vaccines…”* explorer on [Our World in Data](https://ourworldindata.org/).
-2. Switch from the **map** to the **table** interface.
-3. Use filters:  
-   - Region dropdown → select desired region (e.g., *Asia*).  
-   - Year slider → isolate the subset of interest.
-4. Export the filtered table (click the **download icon**) to obtain the **CSV** recording each country-year policy status.
-
----
-
 ## **EDA on HPV_immunization_schedule**
 
 ### **1. Load and Clean the Data**
