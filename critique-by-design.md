@@ -160,7 +160,19 @@ As a result, we only have seven countries available for the redesign.
 
 ### Overview of the Final Redesign
 
-![HPV National Program Policy Effect Dashboard](https://public.tableau.com/static/images/HP/HPVNationalProgramPolicyEffect/HPVNatioalProgramPolicyEffect/1.png)
+![HPV National Program Policy Effect Dashboard]```html
+<div class='tableauPlaceholder' id='viz1763088865248'>
+  <noscript>
+    <a href='#'>
+      <img alt='HPV National Program Policy Effect - USA'
+        src='https://public.tableau.com/static/images/HP/HPVNationalProgramPolicyEffect/HPVNatioalProgramPolicyEffect/1.png' />
+    </a>
+  </noscript>
+  <object class='tableauViz'>
+    <!-- embed params -->
+  </object>
+</div>
+<script src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
 
 View the interactive dashboard here:  
 https://public.tableau.com/views/HPVNationalProgramPolicyEffect/HPVNatioalProgramPolicyEffect
