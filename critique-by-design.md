@@ -59,7 +59,7 @@ For my redesign, I plan to:
 
 ## Step 3: Sketch a solution
 
-[Critique And Redesign.jpg](https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/b1a521c215660e15a8d52f6c43723b381b3e3b50/Critique%20And%20Redesign.jpg)
+![Sketch for Redesign](https://raw.githubusercontent.com/joannachang1028/JoannaChang-dataviz-portfolio/b1a521c215660e15a8d52f6c43723b381b3e3b50/Critique%20And%20Redesign.jpg)
 
 ---
 ## Step 4: Test the solution
