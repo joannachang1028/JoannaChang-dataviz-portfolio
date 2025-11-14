@@ -160,16 +160,7 @@ As a result, we only have seven countries available for the redesign.
 
 ### Overview of the Final Redesign
 
-<h3>HPV National Program Policy Effect – USA</h3>
-
-<iframe 
-    src="https://public.tableau.com/views/HPVNationalProgramPolicyEffect/HPVNatioalProgramPolicyEffect?:showVizHome=no&:embed=true" 
-    width="100%" 
-    height="600" 
-    frameborder="0" 
-    scrolling="no">
-</iframe>
-
+https://public.tableau.com/static/images/HP/HPVNationalProgramPolicyEffect/HPVNatioalProgramPolicyEffect/1.png
 
 The redesigned visualization is a **country-level small-multiple dashboard** that illustrates how national HPV vaccination programs relate to:
 
