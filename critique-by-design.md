@@ -8,8 +8,6 @@ For this assignment, I selected the visualization series from **“HPV vaccinati
 
 🔗 **Source:** [Our World in Data – HPV vaccination](https://ourworldindata.org/hpv-vaccination-world-can-eliminate-cervical-cancer)
 
----
-
 ### **Why I Chose This Visualization**
 I chose this set of visualizations because HPV vaccination is a highly consequential global health issue, and this article includes multiple charts exploring different aspects of cervical cancer prevention—from historical cervical cancer incidence in the UK, to global HPV vaccination policies, to cross-country differences in vaccination coverage.
 
@@ -34,14 +32,10 @@ However, as the article progresses, the visualizations—while individually stro
 | **Aesthetics**  | 7/10  | Clean OWID style; minor color contrast issues.                          |
 | **Engagement**  | 7/10  | Interesting visuals, but fragmented structure limits immersion.          |
 
----
-
 ### **Overall Observations**
 The visualizations are effective when viewed individually—each highlights a different aspect of HPV vaccination’s impact or global policy adoption.  
 The **UK cohort chart** is especially impactful in showing how early vaccination prevents cervical cancer later in life.  
 Interactive **world maps** also enhance engagement, allowing users to explore geographic variations and trends.
-
----
 
 ### **What Works Well**
 - Strong interactivity (hovering, filtering, time series).
@@ -49,15 +43,11 @@ Interactive **world maps** also enhance engagement, allowing users to explore ge
 - Effective storytelling within each individual visualization.
 - Reliable and transparent data sources.
 
----
-
 ### **What Could Be Improved**
 - Lack of **unified narrative** across charts.  
 - Requires switching between graphs to see relationships among *policy*, *coverage*, and *incidence*.  
 - Missing **integrated contextual layers** combining vaccination and outcome data.  
 - Slight **color inconsistencies** reduce cohesiveness.
-
----
 
 ### **Redesign Focus**
 For my redesign, I plan to:
@@ -65,35 +55,30 @@ For my redesign, I plan to:
 - Use **consistent color schemes** and **visual hierarchy** to tie the story together.  
 - Explore **multi-layered visuals** to enhance intuitiveness and insight.
 
+---
 
 ## Step 3: Sketch a solution
 
-
+---
 ## Step 4: Test the solution
 
 ### Questions Asked
-
 - Tell me what you think upon seeing the chart.  
 - Can you describe what this is telling you?  
 - Is there anything surprising or confusing?  
 - Who do you think is the intended audience?  
 - What recommendations would you make to improve the design?
 
----
-
 ### Results
-
 | **Question / Theme** | **Interview 1 - MISM classmate** | **Interview 2 - MISM classmate** |
 |------------------------|-----------------|-----------------|
 | **Clarity of cancer case numbers** | Asked whether the cancer case numbers shown below the chart directly correspond to the years above it. The alignment between values and years wasn't immediately clear. | Shared the same confusion—wasn’t sure if the numbers matched the correct years due to how they were displayed. |
 | **Chart type preference** | Suggested using a line graph for cancer cases instead of bar-style annotations, noting it would make trends more intuitive. | Agreed that a separate line on the secondary (right) y-axis would improve readability. |
 | **Comparing countries** | Mentioned that showing all countries’ vaccination coverage and cancer incidence on one graph is overwhelming. | Recommended using filters, pages, or country-by-country toggles to let users view changes for each country individually after they implemented national HPV vaccination. |
 
----
 
 ### Synthesis
 Across both interviews, the feedback revealed **three consistent themes**:
-
 #### 1. Ambiguity in value–year alignment  
 Viewers were unsure whether the numerical labels below the chart corresponded cleanly to the timeline above. This suggests that labeling, positioning, or axis relationships need to be clarified.
 
@@ -102,8 +87,6 @@ Both classmates independently recommended using a line graph—paired with a sec
 
 #### 3. Comparing all countries at once is overwhelming  
 Showing every country’s vaccination coverage and cancer incidence on a single graph creates visual clutter and makes interpretation difficult. Filters, country selectors, or paginated views would make the narrative more digestible and allow users to see how each country’s HPV policy affected outcomes over time.
-
----
 
 ### Design Changes Inspired by the Feedback
 
@@ -114,11 +97,12 @@ Based on these patterns, the following improvements will be implemented in the f
 - Introduce **interactivity** with toggles or filters to select countries individually.  
 - Apply a **storytelling structure**, presenting each country’s *“before vs. after HPV policy adoption”* in a clear, focused layout.
 
+---
 
 ## Step 4.5 — Before Moving on to Redesign  
 ### Datasets Preparation & EDA on Change of Policy on HPV Schedule
 
-#### Datasets I Used in Redesign
+#### 4.5.1 Datasets I Used in Redesign
 
 To build a cohesive, data-driven redesign that connects **HPV vaccination policy**, **coverage**, and **cancer outcomes**, I integrated the following datasets from *Our World in Data (OWID)* and WHO sources:
 
@@ -141,13 +125,11 @@ To build a cohesive, data-driven redesign that connects **HPV vaccination policy
 - **Purpose in Redesign:** Serves as the **policy timeline backbone**, identifying **the year each country transitioned** to national HPV vaccination—used to align coverage and cancer trends for comparative analysis.
 
 ##### **Integration Objective**
-By combining these datasets, the redesigned visualization connects  
-**policy action → coverage increase → cancer risk reduction**,  
-creating a unified narrative that was missing from the original fragmented charts.
+By combining these datasets, the redesigned visualization connects **policy action → coverage increase → cancer risk reduction**, creating a unified narrative that was missing from the original fragmented charts.
 
 ---
 
-#### EDA on HPV _immunization_schedule (Detailed analysis is in the ipynb. file)
+#### 4.5.2 EDA on HPV _immunization_schedule (Detailed analysis is in the ipynb. file)
 ##### 1. Load and Clean the Data
 
 Renamed key columns for clarity: "Entity" → "Country"
@@ -172,6 +154,8 @@ Saved the first eight early-adopting countries for further analysis.
 Note: Since the other two datasets do not include data for Monaco, it is excluded from the analysis and comparison.
 As a result, we only have seven countries available for the redesign.
 
+---
+
 ## Step 5: Build the Solution
 
 Include and describe your final solution here.
@@ -190,5 +174,6 @@ Any comparisons or insights you derived
 
 When finished, this page should contain all the deliverables required on Canvas.
 
+---
 ## References
 I used AI to proofread my grammar and wordings in desciption. 
