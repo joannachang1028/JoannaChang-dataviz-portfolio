@@ -120,27 +120,19 @@ Based on these patterns, the following improvements will be implemented in the f
 ## Step 4.5 — Before Moving on to Redesign  
 ### Datasets Preparation & EDA on Change of Policy on HPV Schedule
 
----
-
 #### Datasets I Used in Redesign
 
 To build a cohesive, data-driven redesign that connects **HPV vaccination policy**, **coverage**, and **cancer outcomes**, I integrated the following datasets from *Our World in Data (OWID)* and WHO sources:
-
----
 
 ##### **1. HPV Vaccination Coverage Rate (%)**
 - **Source:** [Our World in Data – HPV vaccination coverage](https://ourworldindata.org/hpv-vaccination-world-can-eliminate-cervical-cancer)
 - **Description:** Annual data showing the **percentage of females** vaccinated against HPV by country and year.
 - **Purpose in Redesign:** To visualize the **uptake trajectory** of HPV vaccines over time and assess whether policy adoption led to measurable increases in coverage.
 
----
-
 ##### **2. Cervical Cancer Incidence / Cases / Accumulative Risk**
 - **Source:** [Our World in Data – Cervical cancer incidence](https://ourworldindata.org/cervical-cancer)
 - **Description:** WHO-compiled time-series data showing **new cervical cancer cases per 100,000 women** by country and year.
 - **Purpose in Redesign:** To examine **long-term health outcomes** associated with HPV vaccination coverage, and visualize **pre- vs. post-policy** trends in cervical cancer incidence.
-
----
 
 ##### **3. HPV Immunization Schedule (Policy Adoption Dataset)**
 - **Source:** [Our World in Data – HPV immunization schedule (WHO policy dataset)](https://ourworldindata.org/explorers/which-countries-include-hpv-vaccines)
@@ -149,8 +141,6 @@ To build a cohesive, data-driven redesign that connects **HPV vaccination policy
   - “Subnational”  
   - “Entire country”  
 - **Purpose in Redesign:** Serves as the **policy timeline backbone**, identifying **the year each country transitioned** to national HPV vaccination—used to align coverage and cancer trends for comparative analysis.
-
----
 
 ##### **Integration Objective**
 By combining these datasets, the redesigned visualization connects  
@@ -162,12 +152,8 @@ creating a unified narrative that was missing from the original fragmented chart
 #### EDA on HPV _immunization_schedule (Detailed analysis is in the ipynb. file)
 ##### 1. Load and Clean the Data
 
-Renamed key columns for clarity:
-
-"Entity" → "Country"
-
+Renamed key columns for clarity: "Entity" → "Country"
 Long policy column → "Status for Vaccination"
-
 Performed sanity checks using .shape and .head().
 
 ##### **2. Identify First Policy Change**
@@ -182,13 +168,11 @@ Filtered to countries moving specifically to "Entire country", summarized counts
 
 Selected the subset matching the available cancer data.
 
-##### **5. Extract First Eight Adopters**
+##### **5. Extract First 8 Adopters**
 
-Saved the first 8 early-adopting countries for further analysis.
-
-#### Note
-
-Since in the other two datasets we don't have data for Monaco, we exclude it from analysis and comparison.
+Saved the first eight early-adopting countries for further analysis.
+Note: Since the other two datasets do not include data for Monaco, it is excluded from the analysis and comparison.
+As a result, we only have seven countries available for the redesign.
 
 ## Step 5: Build the Solution
 
@@ -209,9 +193,4 @@ Any comparisons or insights you derived
 When finished, this page should contain all the deliverables required on Canvas.
 
 ## References
-
-List any references you used here.
-
-AI Acknowledgements
-
-If you used AI to help complete this assignment (within course guidelines), describe your usage here.
+I used AI to proofread my grammar and wordings in desciption. 
