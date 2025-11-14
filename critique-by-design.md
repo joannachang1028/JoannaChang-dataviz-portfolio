@@ -59,7 +59,7 @@ For my redesign, I plan to:
 
 ## Step 3: Sketch a solution
 
-
+d8ee9f84bb5c70f730eb3b529332cc579b7b9b74
 
 ---
 ## Step 4: Test the solution
