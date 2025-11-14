@@ -162,7 +162,7 @@ As a result, we only have seven countries available for the redesign.
 
 ### Overview of the Final Redesign
 
-<img src="https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/raw/c3789df60a9078524a21a1869973795a5611b483/HPV%20Natioal%20Program%20Policy%20Effect.png" alt="HPV National Program Policy Effect" width="800"/>
+![HPV Dashboard](https://raw.githubusercontent.com/joannachang1028/JoannaChang-dataviz-portfolio/883036dfb4d87cb6df0c950d8b9b0c1d4bc564ba/HPV%20Natioal%20Program%20Policy%20Effect.png)
 
 
 The redesigned visualization is a **country-level small-multiple dashboard** that illustrates how national HPV vaccination programs relate to:
