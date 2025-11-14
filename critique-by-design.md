@@ -4,9 +4,7 @@
 
 ## Step 1: The Visualization
 
-For this assignment, I selected the visualization series from  
-**“HPV vaccination: How the world can eliminate cervical cancer”**  
-published by *Our World in Data*.  
+For this assignment, I selected the visualization series from **“HPV vaccination: How the world can eliminate cervical cancer”** published by *Our World in Data*.  
 
 🔗 **Source:** [Our World in Data – HPV vaccination](https://ourworldindata.org/hpv-vaccination-world-can-eliminate-cervical-cancer)
 
