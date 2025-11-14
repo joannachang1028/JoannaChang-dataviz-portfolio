@@ -178,7 +178,7 @@ Found all countries that ever left **"Not routinely administered"**, capturing e
 
 Filtered to countries moving specifically to "Entire country", summarized counts, and visualized the timing distribution.
 
-##### **4. Filter to Cancer Data Window (2006–2014)
+##### **4. Filter to Cancer Data Window (2006–2014)**
 
 Selected the subset matching the available cancer data.
 
