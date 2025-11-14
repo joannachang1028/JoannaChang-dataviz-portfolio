@@ -158,21 +158,119 @@ As a result, we only have seven countries available for the redesign.
 
 ## Step 5: Build the Solution
 
-Include and describe your final solution here.
+Final Redesigned Visualization – Overview
 
-It’s also a good idea to summarize:
+For the final redesign, I built a country-level small-multiple dashboard that shows how HPV national vaccination programs relate to:
 
-The original data visualization (screenshot or link)
+Cervical cancer cumulative risk (left y-axis, shaded area), and
 
-Documentation explaining your entire workflow
+HPV vaccination coverage among girls (%) (right y-axis, line with data labels)
 
-Summary of wireframes and user feedback
+for the first seven early-adopting countries with complete data:
 
-Final redesigned data visualization
+United States, Australia, Denmark, France (metropolitan), Germany, Spain, and Switzerland
 
-Any comparisons or insights you derived
+Each country has its own panel (as shown in the figures above), all following the same structure:
 
-When finished, this page should contain all the deliverables required on Canvas.
+Title: HPV National Program Policy Effect – [Country]
+
+X-axis: Year (2003–2016)
+
+Left y-axis: Cumulative risk of cervical cancer
+
+Right y-axis: Vaccination coverage rate (%)
+
+Vertical dotted line marking the year each country introduced HPV vaccination into its national immunization schedule
+
+White background before policy adoption, lightly tinted background after
+
+Color-coded area + line chart for each country for easy cross-panel comparison
+
+In Tableau, these individual sheets are combined into a dashboard. Users can select a country or scroll panel-by-panel to compare trajectories without the clutter of overlapping multi-country lines.
+
+How This Design Addresses the Earlier Critique
+1. Clearer relationship between years and cancer cases
+
+Cancer risk is now shown as a continuous area chart, using position and shape to represent change over time.
+
+No more isolated numeric labels under the chart — reducing confusion regarding year–value alignment.
+
+2. Cancer incidence as a trend (not just labels)
+
+The shaded area clearly communicates overall cervical cancer risk trends.
+
+Vaccination coverage is displayed as a secondary-axis line with selected data labels (e.g., 23%, 26%, 36% for the USA).
+
+This dual-axis approach lets viewers compare coverage trajectories vs. cancer risk trajectories without conflating scales.
+
+3. Avoiding clutter from all countries on one graph
+
+Each country is shown in its own panel with a consistent layout and color theme.
+
+This applies classmates’ feedback to “use a filter or page for each country,” allowing insight without line chaos or visual overload.
+
+Design Choices
+Color & Encoding
+
+Each panel uses a distinct but soft color (red, blue, green, teal, etc.) for both area and line to maintain identity and readability.
+
+The pre-policy area is slightly tinted; the post-policy area shifts subtly to highlight the intervention period.
+
+Vaccination coverage includes data labels to aid country-to-country comparison (e.g., Australia reaching 65–71%, while the USA remains under 40%).
+
+Policy Annotation
+
+A clear vertical dotted line labeled “HPV National Program Start” marks when each country introduced the vaccine nationally.
+
+This milestone helps viewers interpret whether changes occur before or after the policy.
+
+Consistency Across Panels
+
+All charts share:
+
+Same year range (2003–2016)
+
+Similar axis scaling
+
+Unified typography and layout
+
+This makes comparisons valid and visually intuitive.
+
+Key Comparisons and Insights From the 7-Country Analysis
+
+Although the redesign is descriptive rather than causal, several qualitative insights emerge:
+
+1. High and sustained coverage: Australia & Spain
+
+Both countries achieved rapid and high vaccination uptake:
+
+Australia: ~65–71%
+
+Spain: >80% by 2016
+
+Cancer risk appears stable or slightly declining, suggesting strong future benefits as vaccinated cohorts age.
+
+2. Moderate coverage growth: Germany & Switzerland
+
+Germany: ~30–40%
+
+Switzerland: ~50–60%
+
+Cancer risk shows minimal improvement, indicating that policy adoption alone isn’t enough — coverage level matters.
+
+3. Low or unstable coverage: USA, France, Denmark
+
+USA and France remain below 40% coverage; cancer risk is mostly flat.
+
+Denmark is an outlier: after high uptake in the early 2010s, coverage plunges to 16% by 2016 (likely tied to vaccine hesitancy).
+
+Cumulative cancer risk in Denmark remains high and fluctuating, underscoring the importance of sustained uptake.
+
+4. Timing matters
+
+Countries that adopted HPV vaccination earlier and maintained high coverage (Australia, Spain) show more promising trajectories than those with delayed or inconsistent uptake.
+
+The small-multiple layout makes these timing differences visually explicit.
 
 ---
 ## References
