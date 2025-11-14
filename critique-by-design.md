@@ -45,7 +45,7 @@ Interactive **world maps** also enhance engagement, allowing users to explore ge
 
 ---
 
-### ✅ **What Works Well**
+### **What Works Well**
 - Strong interactivity (hovering, filtering, time series).
 - Clear color coding and readable layouts.
 - Effective storytelling within each individual visualization.
@@ -53,7 +53,7 @@ Interactive **world maps** also enhance engagement, allowing users to explore ge
 
 ---
 
-### ⚠️ **What Could Be Improved**
+### **What Could Be Improved**
 - Lack of **unified narrative** across charts.  
 - Requires switching between graphs to see relationships among *policy*, *coverage*, and *incidence*.  
 - Missing **integrated contextual layers** combining vaccination and outcome data.  
@@ -65,7 +65,7 @@ Interactive **world maps** also enhance engagement, allowing users to explore ge
 For my redesign, I plan to:
 - Improve **narrative cohesion** by integrating key dimensions (policy adoption, vaccination rates, and cancer outcomes).  
 - Use **consistent color schemes** and **visual hierarchy** to tie the story together.  
-- Explore **multi-layered visuals** (e.g., combined trend + map dashboard) to enhance intuitiveness and insight.
+- Explore **multi-layered visuals** to enhance intuitiveness and insight.
 
 
 ## Step 3: Sketch a solution
@@ -85,7 +85,7 @@ For my redesign, I plan to:
 
 ### Results
 
-| **Question / Theme** | **Interview 1** | **Interview 2** |
+| **Question / Theme** | **Interview 1 - MISM classmate** | **Interview 2 - MISM classmate** |
 |------------------------|-----------------|-----------------|
 | **Clarity of cancer case numbers** | Asked whether the cancer case numbers shown below the chart directly correspond to the years above it. The alignment between values and years wasn't immediately clear. | Shared the same confusion—wasn’t sure if the numbers matched the correct years due to how they were displayed. |
 | **Chart type preference** | Suggested using a line graph for cancer cases instead of bar-style annotations, noting it would make trends more intuitive. | Agreed that a separate line on the secondary (right) y-axis would improve readability. |
@@ -94,7 +94,6 @@ For my redesign, I plan to:
 ---
 
 ### Synthesis
-
 Across both interviews, the feedback revealed **three consistent themes**:
 
 #### 1. Ambiguity in value–year alignment  
@@ -123,7 +122,7 @@ Based on these patterns, the following improvements will be implemented in the f
 
 ---
 
-## 🧩 Datasets I Used in Redesign
+## Datasets I Used in Redesign
 
 To build a cohesive, data-driven redesign that connects **HPV vaccination policy**, **coverage**, and **cancer outcomes**, I integrated the following datasets from *Our World in Data (OWID)* and WHO sources:
 
@@ -160,8 +159,8 @@ creating a unified narrative that was missing from the original fragmented chart
 
 ---
 
-🔍 EDA on HPV_immunization_schedule
-1. Load and Clean the Data
+## EDA on HPV _immunization_schedule (Detailed analysis is in the ipynb. file)
+### 1. Load and Clean the Data
 
 Renamed key columns for clarity:
 
@@ -171,73 +170,27 @@ Long policy column → "Status for Vaccination"
 
 Performed sanity checks using .shape and .head().
 
-# EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 177–183)
+### **2. Identify First Policy Change**
 
-df.rename(columns={
-    'Entity': 'Country',
-    'Which countries include the human papillomavirus vaccine (HPV) in their national vaccination programs?': 'Status for Vaccination'
-}, inplace=True)
+Found all countries that ever left **"Not routinely administered"**, capturing each country’s **first change year** and **new status**.
 
-print(df.head(20))
-
-2. Identify First Policy Change
-
-Found all countries that ever left "Not routinely administered", capturing each country’s first change year and new status.
-
-# EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 233–263)
-
-df_sorted = df.sort_values(['Country', 'Year'])
-
-countries_with_change.append({
-    'Country': country,
-    'Code': first_non_admin.iloc[0]['Code'],
-    'Year of Change': first_change_year,
-    'New Status': new_status
-})
-
-countries_changed = pd.DataFrame(countries_with_change)
-
-3. Focus on National Coverage Adoption
+### **3. Focus on National Coverage Adoption**
 
 Filtered to countries moving specifically to "Entire country", summarized counts, and visualized the timing distribution.
 
-# EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 291–353)
-
-countries_changed_to_entire_country = countries_changed[
-    countries_changed['New Status'] == 'Entire country'
-]
-
-sns.histplot(countries_changed_to_entire_country['Year of Change'], kde=True)
-
-4. Filter to Cancer Data Window (2006–2014)
+### **4. Filter to Cancer Data Window (2006–2014)
 
 Selected the subset matching the available cancer data.
 
-# EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 392–399)
-
-countries_changed_to_entire_country = countries_changed_to_entire_country[
-    countries_changed_to_entire_country['Year of Change'].isin(range(2006, 2014))
-]
-
-print(countries_changed_to_entire_country.head(20))
-
-5. Extract First Eight Adopters
+### **5. Extract First Eight Adopters**
 
 Saved the first 8 early-adopting countries for further analysis.
 
-# EDA_Change_of_policy_on_HPV_schedule.ipynb (Lines 425–435)
-
-countries_changed_to_entire_country = countries_changed_to_entire_country.head(8)
-countries_changed_to_entire_country.to_csv(
-    'First 8 countries_changed_to_national_coverage.csv',
-    index=False
-)
-
-Note
+### Note
 
 Since in the other two datasets we don't have data for Monaco, we exclude it from analysis and comparison.
 
-Step 5: Build the Solution
+## Step 5: Build the Solution
 
 Include and describe your final solution here.
 
@@ -255,7 +208,7 @@ Any comparisons or insights you derived
 
 When finished, this page should contain all the deliverables required on Canvas.
 
-References
+## References
 
 List any references you used here.
 
