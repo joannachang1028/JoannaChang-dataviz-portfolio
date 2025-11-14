@@ -117,32 +117,32 @@ Based on these patterns, the following improvements will be implemented in the f
 - Apply a **storytelling structure**, presenting each country’s *“before vs. after HPV policy adoption”* in a clear, focused layout.
 
 
-# Step 4.5 — Before Moving on to Redesign  
-## Datasets Preparation & EDA on Change of Policy on HPV Schedule
+## Step 4.5 — Before Moving on to Redesign  
+### Datasets Preparation & EDA on Change of Policy on HPV Schedule
 
 ---
 
-## Datasets I Used in Redesign
+#### Datasets I Used in Redesign
 
 To build a cohesive, data-driven redesign that connects **HPV vaccination policy**, **coverage**, and **cancer outcomes**, I integrated the following datasets from *Our World in Data (OWID)* and WHO sources:
 
 ---
 
-### **1. HPV Vaccination Coverage Rate (%)**
+##### **1. HPV Vaccination Coverage Rate (%)**
 - **Source:** [Our World in Data – HPV vaccination coverage](https://ourworldindata.org/hpv-vaccination-world-can-eliminate-cervical-cancer)
 - **Description:** Annual data showing the **percentage of females** vaccinated against HPV by country and year.
 - **Purpose in Redesign:** To visualize the **uptake trajectory** of HPV vaccines over time and assess whether policy adoption led to measurable increases in coverage.
 
 ---
 
-### **2. Cervical Cancer Incidence / Cases / Accumulative Risk**
+##### **2. Cervical Cancer Incidence / Cases / Accumulative Risk**
 - **Source:** [Our World in Data – Cervical cancer incidence](https://ourworldindata.org/cervical-cancer)
 - **Description:** WHO-compiled time-series data showing **new cervical cancer cases per 100,000 women** by country and year.
 - **Purpose in Redesign:** To examine **long-term health outcomes** associated with HPV vaccination coverage, and visualize **pre- vs. post-policy** trends in cervical cancer incidence.
 
 ---
 
-### **3. HPV Immunization Schedule (Policy Adoption Dataset)**
+##### **3. HPV Immunization Schedule (Policy Adoption Dataset)**
 - **Source:** [Our World in Data – HPV immunization schedule (WHO policy dataset)](https://ourworldindata.org/explorers/which-countries-include-hpv-vaccines)
 - **Description:** Historical record of **which countries include the HPV vaccine in their national immunization programs**, with yearly status values:  
   - “Not routinely administered”  
@@ -152,15 +152,15 @@ To build a cohesive, data-driven redesign that connects **HPV vaccination policy
 
 ---
 
-### **Integration Objective**
+##### **Integration Objective**
 By combining these datasets, the redesigned visualization connects  
 **policy action → coverage increase → cancer risk reduction**,  
 creating a unified narrative that was missing from the original fragmented charts.
 
 ---
 
-## EDA on HPV _immunization_schedule (Detailed analysis is in the ipynb. file)
-### 1. Load and Clean the Data
+#### EDA on HPV _immunization_schedule (Detailed analysis is in the ipynb. file)
+##### 1. Load and Clean the Data
 
 Renamed key columns for clarity:
 
@@ -170,23 +170,23 @@ Long policy column → "Status for Vaccination"
 
 Performed sanity checks using .shape and .head().
 
-### **2. Identify First Policy Change**
+##### **2. Identify First Policy Change**
 
 Found all countries that ever left **"Not routinely administered"**, capturing each country’s **first change year** and **new status**.
 
-### **3. Focus on National Coverage Adoption**
+##### **3. Focus on National Coverage Adoption**
 
 Filtered to countries moving specifically to "Entire country", summarized counts, and visualized the timing distribution.
 
-### **4. Filter to Cancer Data Window (2006–2014)
+##### **4. Filter to Cancer Data Window (2006–2014)
 
 Selected the subset matching the available cancer data.
 
-### **5. Extract First Eight Adopters**
+##### **5. Extract First Eight Adopters**
 
 Saved the first 8 early-adopting countries for further analysis.
 
-### Note
+#### Note
 
 Since in the other two datasets we don't have data for Monaco, we exclude it from analysis and comparison.
 
