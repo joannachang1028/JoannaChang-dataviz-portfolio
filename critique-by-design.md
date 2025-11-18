@@ -72,12 +72,11 @@ For my redesign, I plan to:
 - What recommendations would you make to improve the design?
 
 ### Results
-| **Question / Theme** | **Interview 1 - MISM classmate** | **Interview 2 - MISM classmate** |
-|------------------------|-----------------|-----------------|
-| **Clarity of cancer case numbers** | Asked whether the cancer case numbers shown below the chart directly correspond to the years above it. The alignment between values and years wasn't immediately clear. | Shared the same confusion. She wasn’t sure if the numbers matched the correct years due to how they were displayed. |
-| **Chart type preference** | Suggested using a line graph for cancer cases instead of bar-style annotations, noting it would make trends more intuitive. | Agreed that a separate line on the secondary (right) y-axis would improve readability. |
-| **Comparing countries** | Mentioned that showing all countries’ vaccination coverage and cancer incidence on one graph is overwhelming. | Recommended using filters, pages, or country-by-country toggles to let users view changes for each country individually after they implemented national HPV vaccination. |
-
+| Question / Theme | Interview 1 - MISM classmate | Interview 2 - MISM classmate |
+|---|---|---|
+| Clarity of cancer case numbers | Asked whether the cancer case numbers shown below the chart directly correspond to the years above it. The alignment between values and years wasn't immediately clear. | Shared the same confusion. She wasn’t sure if the numbers matched the correct years due to how they were displayed. |
+| Chart type preference | Suggested using a line graph for cancer cases instead of bar-style annotations, noting it would make trends more intuitive. | Agreed that a separate line on the secondary (right) y-axis would improve readability. |
+| Comparing countries | Mentioned that showing all countries’ vaccination coverage and cancer incidence on one graph is overwhelming. | Recommended using filters, pages, or country-by-country toggles to let users view changes for each country individually after they implemented national HPV vaccination. |
 
 ### Synthesis
 Across both interviews, the feedback revealed **three consistent themes**:
