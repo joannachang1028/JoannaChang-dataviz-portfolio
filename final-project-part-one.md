@@ -102,38 +102,63 @@ These data points will be used to:
 
 # Initial sketches
 
-Note: These sketches will be hand-drawn or digitally drawn and uploaded as images to the GitHub repository. The descriptions below outline what each sketch will visualize.
+Below are the initial concept sketches that will guide the eventual data visualizations. 
+These written descriptions explain the structure, data source, and storytelling purpose behind each visualization.
 
-Sketch 1 — Global AI User Growth (Line Chart)
-- X-axis: Years 2020–2031
-- Y-axis: Millions of AI tool users
-- Rapid upward trend
-- Message: “AI has entered everyone’s life”
+## Sketch 1 — U.S. AI Awareness & Adoption (Dual Panel)
 
-Sketch 2 — Employer Expectations (Bar Chart)
-- Bar 1: 67% “Would NOT hire without AI skills”
-- Bar 2: 33% “Would hire”
-- Message: “AI literacy affects your employability”
+Replaces the previous “Global AI User Growth” sketch, since the Pew dataset does not include global user forecasts.
 
-Sketch 3 — AI Usage vs. Desired Support (Dual Charts)
-- Left chart: What Americans currently use AI for (simple tasks like quick answers, content generation)
-- Right chart: What Americans want AI to help them with (productivity, decision-making, well-being)
-- A gap highlighted visually to emphasize the turning point of the narrative
+### Left Panel — Awareness of AI Chatbots
 
-Sketch 4 — Recommended AI Tools (Grid Layout)
-- A 3×3 icon-style grid representing:
-  - Co-creation tools
-  - Workflow automation tools
-  - Decision/learning tools
-- Each icon accompanied by one sentence on how to get started and one quick tip
+- Visualization type: Stacked bar chart  
+- Pew question: “How much have you heard about artificial intelligence (AI) chatbots like ChatGPT, Gemini or Copilot?”
 
-Sketch 5 — Final Call-to-Action Panel
-- Centered text:
-  “Are you truly using AI effectively—or just casually?”
-- A short checklist beneath with three actionable next steps:
-  1. Try one co-creation prompt per day for a week
-  2. Automate one small workflow
-  3. Use an AI tool to support one personal decision and reflect on outcomes
+Response levels:
+- A lot
+- A little
+- Nothing at all
+
+Design notes:
+- Order bars from “A lot → Nothing at all.”
+- Use stronger/darker colors for higher awareness levels.
+- Optional: add demographic filters (age, education, employment, political ideology).
+
+### Right Panel — Ever Used an AI Chatbot
+
+- Visualization type: Vertical bar chart  
+- Pew question: “Have you ever used an artificial intelligence (AI) chatbot like ChatGPT, Gemini or Copilot?”
+
+Bars:
+- Yes
+- No
+
+Design notes:
+- Keep it simple; emphasize the adoption rate.
+- Optional demographic dropdowns to show adoption gaps.
+
+Story message:
+Americans are increasingly aware of AI—but awareness does not automatically translate into usage. This visualization establishes the starting point of the story: many people know AI exists, yet fewer actually use it.
+
+## Sketch 2 — Control Over How AI Is Used in Your Life
+
+- Visualization type: Horizontal bar chart  
+- Pew question: “How much control do you think you have in whether artificial intelligence (AI) is used in your life?”
+
+Response categories:
+- I’d like more control
+- Not sure
+- I’m comfortable
+- Refused
+
+Design notes:
+- Use darker / more saturated colors for “I’m comfortable.”
+- Use lighter / muted colors for “Not sure” and “Refused.”
+- Emphasize “I’d like more control” since this is a key emotional anchor that supports your story’s turning point (the gap between current AI experiences and desired AI support).
+- Include percentage labels for clarity.
+
+Story message:
+Many adults feel uncertain or powerless about how AI affects their everyday lives. This chart visualizes the emotional landscape behind AI usage and sets up the narrative tension for later sections (the AI usage gap + why new skills/tools matter).
 
 # Method and Medium
 
