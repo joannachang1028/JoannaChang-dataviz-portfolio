@@ -22,21 +22,21 @@ This final project aims to tell a clear data-driven story that answers:
 The project will conclude by challenging readers:
 “Are you truly using AI effectively—or just casually?”
 
-## 1.2 Project Structure (Story Arc)
+## 1.2 Project Structure
 
-Section 1 — AI Is Already Everywhere
+**Section 1 — AI Is Already Everywhere
 - Evidence: Rapid global growth of AI tool users from 2020–2031
 - Visualization: Line chart showing millions of users worldwide (2020–2031)
 - Message: AI has already become a universal tool
 - Source: Statista. (July 1, 2025). Number of AI tool users worldwide from 2020 to 2031 (in millions). Retrieved November 18, 2025, from https://www.statista.com/forecasts/1449844/ai-tool-users-worldwide
 
-Section 2 — Employers Expect AI Skills
+**Section 2 — Employers Expect AI Skills
 - Evidence: 67% of U.S. leaders would not hire someone without AI skills
 - Visualization: Bar chart visualizing employer expectations
 - Message: AI literacy is now a professional requirement
 - Citation: Fleck, A. (January 15, 2025). 2 in 3 Leaders Would Not Hire Someone Without AI Skills [Digital image]. Retrieved November 18, 2025, from https://www.statista.com/chart/33761/knowledge-workers-on-hiring-someone-with-ai-skills/
 
-Section 3 — The AI Gap: Usage vs. Expectations
+**Section 3 — The AI Gap: Usage vs. Expectations
 - Actual Usage: What Americans Do with AI
   - Visualization: Chart showing where U.S. adults intend to use generative AI (primarily simple tasks)
   - Citation: Activate. (October 10, 2023). Intention of generative artificial intelligence (GAI) usage by adults in the United States as of August 2023, by type [Graph]. Retrieved November 18, 2025, from https://www.statista.com/statistics/1461998/usa-generative-ai-usage-intention-by-type/
@@ -45,23 +45,34 @@ Section 3 — The AI Gap: Usage vs. Expectations
   - Citation: Richter, F. (November 7, 2025). How Americans Want AI to Support Them [Digital image]. Retrieved November 18, 2025, from https://www.statista.com/chart/35426/how-americans-want-ai-to-support-them/
 - Message: There is a clear disconnect between how Americans actually use AI (simple tasks) and how they wish AI would help (advanced support & decision-making). This “AI usage gap” becomes the central narrative turning point.
 
-Section 4 — What AI Tools Should You Learn?
-- To close the gap and help people (graduate student) live more efficiently and effectively, the project will recommend essential AI tools across three categories:
+**Section 4 — What AI Tools Should You Learn?
+To close the gap and help people (graduate student) live more efficiently and effectively, the project will recommend essential AI tools across three categories:
 
-  1. AI as a Co-Creator
-     - Master in Prompt Engineering (ChatGPT/Claude/Gemini)
-       - Few shots
-       - Chain of Thoughts
+1. **AI as a Learner**
 
-  2. AI for Note-taking 
-     - Notion AI
-     - Fathon AI
+   * **NotebookLM** — Helps synthesize readings, summarize concepts, and create personalized study guides.
 
-  3. AI for Job Application
-     - Simplify Copilot
-     - ChatGPT: prompt-engineering for customizing resume and cover letter
+2. **AI for Note-taking**
 
-- Final message: A recommended, practical learning path for readers (tools + short exercises) and the call-to-action: “Are you truly using AI effectively—or just casually?”
+   * **Notion AI** — Organizes notes, generates outlines, and supports productivity workflows.
+   * **Fathom AI** — Records and summarizes meetings for quick review.
+
+3. **AI for Job Applications**
+
+   * **Simplify Copilot** — Automates application steps and tracks progress.
+   * **ChatGPT (Prompt Engineering)** — Customizes resumes and cover letters for specific roles.
+
+| Category                    | Tool                             | What It Helps You Do                                                             |
+| --------------------------- | -------------------------------- | -------------------------------------------------------------------------------- |
+| **AI as a Learner**         | **NotebookLM**                   | Synthesizes readings, summarizes concepts, and builds personalized study guides. |
+| **AI for Note-taking**      | **Notion AI**                    | Organizes notes, generates outlines, and supports task workflows.                |
+|                             | **Fathom AI**                    | Records, transcribes, and summarizes meetings for quick review.                  |
+| **AI for Job Applications** | **Simplify Copilot**             | Automates repetitive application steps and tracks job submissions.               |
+|                             | **ChatGPT (Prompt Engineering)** | Customizes resumes and cover letters based on job descriptions.                  |
+
+
+Taken together, these tools provide a practical, achievable learning path for anyone hoping to close their personal AI usage gap. By incorporating AI into learning, daily organization, and career development, individuals can shift from **casual** use of AI to **intentional, skill-building** use—ultimately unlocking the full potential of AI as a partner in learning, productivity, and professional growth.
+
 
 # The data
 
