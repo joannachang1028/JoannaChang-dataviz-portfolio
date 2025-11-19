@@ -73,6 +73,9 @@ To close the gap and help people (graduate student) live more efficiently and ef
 
 Taken together, these tools provide a practical, achievable learning path for anyone hoping to close their personal AI usage gap. By incorporating AI into learning, daily organization, and career development, individuals can shift from **casual** use of AI to **intentional, skill-building** use—ultimately unlocking the full potential of AI as a partner in learning, productivity, and professional growth.
 
+## Story Telling Desgin - How Readers Feel Through the Presentation
+![picture](picture/story telling design.png)
+
 
 # The data
 
@@ -115,6 +118,8 @@ These data points will be used to:
 
 Below are the initial concept sketches that will guide the eventual data visualizations. 
 These written descriptions explain the structure, data source, and storytelling purpose behind each visualization.
+
+![picture](picture/sketch.png)
 
 ## Sketch 1 — U.S. AI Awareness & Adoption (Dual Panel)
 
