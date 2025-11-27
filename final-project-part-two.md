@@ -18,7 +18,8 @@ Below is a walkthrough of my draft Shorthand story, functioning as a **visual st
   - 58% of young adults have used an AI tool  
   - 35% use AI at work  
 - Second grid highlighting growth in specific uses (+20% work, +18% learning, +11% entertainment).
-<img src="https://raw.githubusercontent.com/joannachang1028/JoannaChang-dataviz-portfolio/main/picture/How%20Americans%20Want%20AI%20to%20Support%20Them%20.jpeg" width="450" height="auto">
+![Usage Awareness & Behavior](https://raw.githubusercontent.com/joannachang1028/JoannaChang-dataviz-portfolio/main/picture/Usage%20Awareness%20%26%20Behavior.png)
+
 
 ### **4. Pause Section**  
 - A reflection screen: *“Are we using AI tools the right way?”*
