@@ -41,8 +41,6 @@ Below is a walkthrough of my draft Shorthand story, functioning as a **visual st
 ### **8. Call to Action**  
 - Encourages graduate students to adopt appropriate AI tools to close the gap between intent and behavior.
 
-These storyboards reflect the direction and visual structure expected in Part II, aligning with the rubric’s requirement for high-fidelity draft components.
-
 ---
 
 # User Research
@@ -76,14 +74,14 @@ Each is familiar with tools like ChatGPT but differs in depth of usage.
 | Understand current usage | “What AI tools do you currently use? For what tasks?” |
 | Identify gaps | “Is there anything you *wish* AI could help you with, but currently doesn’t?” |
 | Evaluate clarity | “Is the story clear? At what point—if any—did you feel confused or need more context?” |
-| Evaluate relevance | “Is this story relevant to your experience as a student?” |
+| Evaluate relevance | “Is this story relevant to your experience?” |
 | Gather suggestions | “What part of the storyboard do you think needs improvement?” |
 
 ---
 
 # Interview Findings  
 
-| Questions | Interview 1 — MISM (real feedback) | Interview 2 — MISM | Interview 3 — MEIM |
+| Questions | Interview 1 — MISM | Interview 2 — PPMDA | Interview 3 — MEIM |
 |----------|-------------------------------------|----------------------|----------------------|
 | **Relevance of framing** | Suggested strongly: “Your reader should be *students*. That makes the recommendations more useful.” | Agreed—story feels tailored to students already. | Suggested adding examples for creative/industry roles. |
 | **Clarity of narrative flow** | Flow is smooth; liked the pause section. | Wanted slightly shorter text blocks. | Wanted clearer transition between “wish” and “gap.” |
@@ -117,7 +115,7 @@ The user research validated that the “AI usage gap” is a meaningful and rela
 
 ---
 
-# Moodboards / Personas (Optional)  
+# Moodboards / Personas 
 ### Persona: “Overwhelmed Graduate Student”  
 - Balancing coursework, job search, and personal life  
 - Aware of AI tools but defaults to basic use cases  
@@ -136,10 +134,9 @@ The user research validated that the “AI usage gap” is a meaningful and rela
 - Pew Research Center (2025).  
 - OECD (2023).  
 - Richter, F. (2025). *How Americans Want AI to Support Them.*
-
 (References adapted from charts.)
 
 ---
 
 # AI Acknowledgements  
-AI assistance (ChatGPT) was used only for proofreading the contents.  
+AI assistance (ChatGPT) was used for proofreading the contents.  
