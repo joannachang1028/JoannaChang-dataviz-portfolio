@@ -34,7 +34,7 @@ Below is a walkthrough of my draft Shorthand story, functioning as a **visual st
   - 32% want AI as a personal assistant  
   - 28% want AI to automate daily tasks  
 - Accompanied by workplace photos symbolizing desired daily use.
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/joannachang1028/JoannaChang-dataviz-portfolio/main/picture/How%20Americans%20Want%20AI%20to%20Support%20Them%20.jpeg" width="550">
 </p>
 
