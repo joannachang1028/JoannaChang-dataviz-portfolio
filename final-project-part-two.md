@@ -78,7 +78,8 @@ Each is familiar with tools like ChatGPT but differs in depth of usage.
 3. Evaluate whether the draft story structure is clear and relevant to their needs.  
 4. Identify missing elements or confusing sections in my storyboard.
 
-### Questions to Ask  
+### Questions to Ask
+
 | Goal | Questions to Ask |
 |------|------------------|
 | Understand current usage | “What AI tools do you currently use? For what tasks?” |
@@ -86,6 +87,7 @@ Each is familiar with tools like ChatGPT but differs in depth of usage.
 | Evaluate clarity | “Is the story clear? At what point—if any—did you feel confused or need more context?” |
 | Evaluate relevance | “Is this story relevant to your experience?” |
 | Gather suggestions | “What part of the storyboard do you think needs improvement?” |
+
 
 ---
 
