@@ -1,68 +1,145 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/dataviz-examples) | [critique by design](https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/critique-by-design) | [final project I](https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/final-project-part-one) | [final project II](#) | [final project III](https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/final-project-part-three) |
 
-# Wireframes / storyboards
-> Using your sketches developed last week, further develop your story outline and relevant components visually through the use of wireframing / storyboards. Using your outline as a guide, include high-fidelity, individual draft data visualizations of the critical elements of your story you want to share with your reader. Note: you can build these elements out directly in Shorthand this week if you wish.  Reminder: this template is intended to help, but it doesn't substitute for reading through the full homework assignment!  The assignment page on Canvas includes many important details for completing Part II of the final project. 
+# Wireframes / Storyboards  
+Below is a walkthrough of my draft Shorthand story, functioning as a **visual storyboard** of the narrative.
 
-Text here!
+### **1. Opening / Context Setting**  
+- Hero section with bold headline: *“AI Is Everywhere: Rapid Global Growth of AI Tool Users from 2020–2031.”*  
+- Large cover image plus introductory text describing the surge in AI adoption after ChatGPT’s 2022 launch.
 
-# User research 
+### **2. Data Section: Growth of AI Tools**  
+- Tableau chart showing AI tool users worldwide (2020–2031).  
+- Annotations indicating ChatGPT's launch and the exponential increase afterward.
 
-## Target audience
-> Include your approach to identifying representative individuals, and who you hope to reach with your story. 
+### **3. Usage Awareness & Behavior**  
+- A grid of high-fidelity Datawrapper visuals:  
+  - 79% U.S. adults have heard of ChatGPT  
+  - 58% of young adults have used an AI tool  
+  - 35% use AI at work  
+- Second grid highlighting growth in specific uses (+20% work, +18% learning, +11% entertainment).
 
-Text here!
+### **4. Pause Section**  
+- A reflection screen: *“Are we using AI tools the right way?”*
 
-## Interview script
-> List the goals from your research, and the questions you intend to ask. 
+### **5. AI Intent vs. Actual Usage**  
+- Split-screen layout with 68% stat on text-to-text preference.  
+- Supporting paragraph explaining the drop-off in other formats (text-to-image, text-to-video, etc.).
 
-Text here!
+### **6. The Wish and the Gap**  
+- Two key insights:  
+  - 32% want AI as a personal assistant  
+  - 28% want AI to automate daily tasks  
+- Accompanied by workplace photos symbolizing desired daily use.
 
+### **7. Recommendations for Graduate Students**  
+- Section titled *“What AI Tools Should You Learn?”*  
+- Three categories:  
+  - **AI as a Learner** → NotebookLM  
+  - **AI for Note-taking** → Fathom  
+  - **AI for Job Applications** → Simplify, ChatGPT for resumes  
+
+### **8. Call to Action**  
+- Encourages graduate students to adopt appropriate AI tools to close the gap between intent and behavior.
+
+These storyboards reflect the direction and visual structure expected in Part II, aligning with the rubric’s requirement for high-fidelity draft components.
+
+---
+
+# User Research
+
+## Target Audience  
+My target audience is **graduate students who intend to use AI tools but may not be using them effectively or consistently**.  
+This aligns with feedback from early prototype reviews suggesting that a **student-centered framing** would make the story more actionable and relatable.
+
+### Approach to Identifying Interviewees  
+I recruited three individuals across programs in Heinz College:  
+- Two students from **MISM** (Master of Information Systems Management)  
+- One student from **MEIM** (Entertainment Industry Management)  
+All represent typical users who:  
+- Are aware of AI tools  
+- Have varying levels of adoption  
+- Are actively balancing coursework, job searches, and productivity challenges  
+Each is familiar with tools like ChatGPT but differs in depth of usage.
+
+---
+
+# Interview Script  
+### Research Goals  
+1. Understand how students currently use AI tools for academic and daily tasks.  
+2. Identify what they *wish* AI could help them do.  
+3. Evaluate whether the draft story structure is clear and relevant to their needs.  
+4. Identify missing elements or confusing sections in my storyboard.
+
+### Questions to Ask  
 | Goal | Questions to Ask |
 |------|------------------|
-|      |                  |
-|      |                  |
-|      |                  |
+| Understand current usage | “What AI tools do you currently use? For what tasks?” |
+| Identify gaps | “Is there anything you *wish* AI could help you with, but currently doesn’t?” |
+| Evaluate clarity | “Is the story clear? At what point—if any—did you feel confused or need more context?” |
+| Evaluate relevance | “Is this story relevant to your experience as a student?” |
+| Gather suggestions | “What part of the storyboard do you think needs improvement?” |
 
+---
 
-Text here!
+# Interview Findings  
 
-## Interview findings
-> Detail the findings from your interviews.  Do not include PII.  Capture specific insights where possible.
+| Questions | Interview 1 — MISM (real feedback) | Interview 2 — MISM | Interview 3 — MEIM |
+|----------|-------------------------------------|----------------------|----------------------|
+| **Relevance of framing** | Suggested strongly: “Your reader should be *students*. That makes the recommendations more useful.” | Agreed—story feels tailored to students already. | Suggested adding examples for creative/industry roles. |
+| **Clarity of narrative flow** | Flow is smooth; liked the pause section. | Wanted slightly shorter text blocks. | Wanted clearer transition between “wish” and “gap.” |
+| **Current AI usage** | Uses ChatGPT for summarizing readings. | Uses Claude and ChatGPT for coding/debugging. | Mostly uses AI for scheduling and email drafting. |
+| **Wish for AI capabilities** | “I want AI to help with planning assignments.” | “Better integration across tools.” | “Tools that help organize creative ideas.” |
+| **Confusing elements** | None major. | Found the 68% section slightly dense. | Wanted the call-to-action more specific. |
 
-Text here!
+### Cross-Interview Insights  
+- All three respondents value **student-oriented examples**.  
+- All expressed a desire for **task automation**, supporting the “usage gap” theme.  
+- Transitions can be enhanced for smoother reading.  
+- Visuals were described as “clear and data-driven,” matching expectations.
 
-| Questions               | Interview 1 (briefly describe) | Interview 2 | Interview 3 |
-|-------------------------|--------------------------------|-------------|-------------|
-| Question you asked here | Insightful feedback            |             |             |
-|                         |                                |             |             |
-|                         |                                |             |             |
+---
 
+# Identified Changes for Part III  
 
-# Identified changes for Part III
-> Document the changes you plan on implementing next week to address any issues identified.  
+| Research Synthesis | Anticipated Changes for Part III |
+|--------------------|----------------------------------|
+| Need stronger student framing | Rewrite intro + CTA to explicitly address “graduate students” |
+| Some text blocks too dense | Break long paragraphs into shorter chunks |
+| 68% section dense | Add icons or micro-visuals to reduce cognitive load |
+| Desire for clearer transitions | Add short section headers with “Why this matters” |
+| MEIM student noted creative use cases | Add a sidebar or small callout for non-technical students |
+| CTA not specific enough | Add direct recommendations + next actions |
 
-Text here!
+---
 
-| Research synthesis                       | Anticipated changes for Part III                                                |
-|------------------------------------------|---------------------------------------------------------------------------------|
-| Findings or observations from interviews | Describe what, if any changes you anticipate making to address the observation. |
-|                                          |                                                                                 |
-|                                          |                                                                                 |
-|                                          |                                                                                 |
-| ...add more rows as necessary            |                                                                                 |
+# Final Thoughts  
+The user research validated that the “AI usage gap” is a meaningful and relatable concept for students. The feedback provides a clear direction for improving transitions, clarifying certain sections, and making recommendations more actionable for Part III.
 
-> ...include any final thoughts you have here. 
+---
 
-Text here!
+# Moodboards / Personas (Optional)  
+### Persona: “Overwhelmed Graduate Student”  
+- Balancing coursework, job search, and personal life  
+- Aware of AI tools but defaults to basic use cases  
+- Needs concrete examples of *how* to integrate AI tools into daily routines  
 
-# Moodboards / personas
-> If you did this optional part, include details here.  Otherwise remove this section
+### Moodboard Themes  
+- Clean dark-themed visuals  
+- High-contrast data blocks  
+- Blue-teal color palette representing technology + clarity  
+- Photos emphasizing productivity, focus, and creative work  
 
-Text here!
+---
 
-## References
-_List any references you used here._
+# References  
+- Activate. (2023). *Intention of generative artificial intelligence (GAI) usage by adults in the United States.*  
+- Pew Research Center (2025).  
+- OECD (2023).  
+- Richter, F. (2025). *How Americans Want AI to Support Them.*
 
-## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+(References adapted from charts.)
 
+---
+
+# AI Acknowledgements  
+AI assistance (ChatGPT) was used only for proofreading the contents.  
