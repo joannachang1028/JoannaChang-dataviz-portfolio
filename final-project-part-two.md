@@ -18,7 +18,7 @@ Below is a walkthrough of my draft Shorthand story, functioning as a **visual st
   - 58% of young adults have used an AI tool  
   - 35% use AI at work  
 - Second grid highlighting growth in specific uses (+20% work, +18% learning, +11% entertainment).
-<div class='tableauPlaceholder' id='viz1764214971849' style='position: relative'><noscript><a href='#'><img alt='How much control do you feel you have over whether AI is used in your life? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ControloverAI&#47;ControloverAI&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ControloverAI&#47;ControloverAI' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ControloverAI&#47;ControloverAI&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+<img src="https://raw.githubusercontent.com/joannachang1028/JoannaChang-dataviz-portfolio/main/picture/How%20Americans%20Want%20AI%20to%20Support%20Them%20.jpeg" width="450" height="auto">
 
 ### **4. Pause Section**  
 - A reflection screen: *“Are we using AI tools the right way?”*
@@ -36,7 +36,7 @@ Below is a walkthrough of my draft Shorthand story, functioning as a **visual st
 <img src="https://raw.githubusercontent.com/joannachang1028/JoannaChang-dataviz-portfolio/main/picture/How%20Americans%20Want%20AI%20to%20Support%20Them%20.jpeg" width="450" height="auto">
 
 - People find themselves lack of control over AI
-[![Preview](https://public.tableau.com/static/images/.../1.png)](https://public.tableau.com/views/.../...)              
+<div class='tableauPlaceholder' id='viz1764214971849' style='position: relative'><noscript><a href='#'><img alt='How much control do you feel you have over whether AI is used in your life? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ControloverAI&#47;ControloverAI&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ControloverAI&#47;ControloverAI' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ControloverAI&#47;ControloverAI&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>           
 
 ### **7. Recommendations for Graduate Students**  
 - Section titled *“What AI Tools Should You Learn?”*  
