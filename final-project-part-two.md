@@ -34,7 +34,9 @@ Below is a walkthrough of my draft Shorthand story, functioning as a **visual st
   - 32% want AI as a personal assistant  
   - 28% want AI to automate daily tasks  
 - Accompanied by workplace photos symbolizing desired daily use.
-<img src="https://raw.githubusercontent.com/joannachang1028/JoannaChang-dataviz-portfolio/main/picture/How%20Americans%20Want%20AI%20to%20Support%20Them%20.jpeg" width="450" height="auto">
+<p align="left">
+  <img src="https://raw.githubusercontent.com/joannachang1028/JoannaChang-dataviz-portfolio/main/picture/How%20Americans%20Want%20AI%20to%20Support%20Them%20.jpeg" width="550">
+</p>
 
 - People find themselves lack of control over AI
 <div class='tableauPlaceholder' id='viz1764214971849' style='position: relative'><noscript><a href='#'><img alt='How much control do you feel you have over whether AI is used in your life? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ControloverAI&#47;ControloverAI&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ControloverAI&#47;ControloverAI' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ControloverAI&#47;ControloverAI&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>           
