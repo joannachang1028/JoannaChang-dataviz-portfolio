@@ -1,4 +1,11 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/dataviz-examples) | [critique by design](https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/critique-by-design) | [final project I](https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/final-project-part-one) | [final project II](#) | [final project III](https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/final-project-part-three) |
+<p align="center">
+  <a href="https://cmustudent.github.io/tswd-portfolio-templates/">home page</a> |
+  <a href="https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/dataviz-examples">data viz examples</a> |
+  <a href="https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/critique-by-design">critique by design</a> |
+  <a href="https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/final-project-part-one">final project I</a> |
+  final project II |
+  <a href="https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/final-project-part-three">final project III</a>
+</p>
 
 # Wireframes / Storyboards  
 Below is a walkthrough of my draft Shorthand story, functioning as a **visual storyboard** of the narrative.
