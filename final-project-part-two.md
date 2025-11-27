@@ -36,7 +36,7 @@ Below is a walkthrough of my draft Shorthand story, functioning as a **visual st
 <img src="https://raw.githubusercontent.com/joannachang1028/JoannaChang-dataviz-portfolio/main/picture/How%20Americans%20Want%20AI%20to%20Support%20Them%20.jpeg" width="450" height="auto">
 
 - People find themselves lack of control over AI
-<img src="https://public.tableau.com/static/images/.../1.png" width="600">              
+[![Preview](https://public.tableau.com/static/images/.../1.png)](https://public.tableau.com/views/.../...)              
 
 ### **7. Recommendations for Graduate Students**  
 - Section titled *“What AI Tools Should You Learn?”*  
