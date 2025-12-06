@@ -1,7 +1,6 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 # Data visualization examples
-_You can place some of your data viz examples from the course here.  Make sure to include any citations / references / data sources used, and it's probably a good idea to explain what these visualizations show._
 
 ## OECD Government Debt Heatmap (2007–2024)
 
@@ -30,13 +29,13 @@ _You can place some of your data viz examples from the course here.  Make sure t
   </object>
 </div>
 
-<script type='text/javascript'>
-  var divElement = document.getElementById('viz1762112394145');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width='100%';
-  vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-  var scriptElement = document.createElement('script');
-  scriptElement.src='https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
+## Part III: Fiscal Discipline Divide: Northern vs Southern Europe
 
+<div class='tableauPlaceholder' id='viz1764988696748' style='position: relative'><noscript><a href='#'><img alt='Fiscal Discipline Divide: Northern vs Southern EuropeNorthern Europe sustains low debt ratios while Southern Europe struggles to reduce post-crisis debt. ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FiscalDisciplineDivideNorthernvsSouthernEurope&#47;OECDGovernmentDebtHeatmap2008&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FiscalDisciplineDivideNorthernvsSouthernEurope&#47;OECDGovernmentDebtHeatmap2008' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FiscalDisciplineDivideNorthernvsSouthernEurope&#47;OECDGovernmentDebtHeatmap2008&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+
+In my redesign of OECD Government Debt Heatmap (2007–2024) , I wanted to highlight the contrast in fiscal discipline between Northern and Southern Europe using the same OECD debt-to-GDP data. By grouping countries into two regions, I aimed to show how Northern Europe has generally maintained lower and more stable debt levels, while Southern Europe continues to struggle with higher debt after the 2008 crisis and COVID-19. The dual-line design—thin country lines and bold regional averages—helps viewers see both individual patterns and overall regional trends.
+
+Compared with my heatmap, this version tells a clearer story instead of just showing values. The heatmap worked well for broad comparisons, but the line chart emphasizes how two regions diverged over time. I used teal for Northern Europe and orange for Southern Europe to convey stability versus risk, and added a dashed 100 % line to mark the debt threshold. Overall, this design is more effective in communicating the long-term fiscal gap between the two regions.
+
+References & AI Acknowledgement:
+Writing assistance: ChatGPT for proofreading and clarity.
