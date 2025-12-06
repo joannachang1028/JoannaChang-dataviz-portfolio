@@ -189,24 +189,14 @@ Original designs in the article:[Our World in Data – HPV vaccination](https://
 
 #### **Dashboard Structure (Per-Country Panel)**
 
-Each panel contains:
-##### **1. Title**
-- **HPV National Program Policy Effect – _[Country]_**
-##### **2. X-axis**
-- Year range: **2003–2016**
-##### **3. Left Y-axis**
-- Cumulative risk of cervical cancer
-##### **4. Right Y-axis**
-- HPV vaccination coverage rate (%)
-##### **5. Policy Annotation**
-- A **vertical dotted line** marking the year the country introduced HPV vaccination nationally  
-##### **6. Background Encoding**
-- **White background** before policy adoption  
-- **Lightly tinted background** after policy adoption  
-##### **7. Visual Elements**
-- Color-coded **area chart** (cancer risk)
-- Color-matched **line chart** with selected data labels (coverage)
-- Harmonized thematic colors for cross-country consistency  
+Each country panel follows a consistent structure:
+- **Title:** HPV National Program Policy Effect – *[Country]*
+- **X-axis:** 2003–2016  
+- **Left Y-axis:** Cumulative cervical cancer risk  
+- **Right Y-axis:** HPV vaccination coverage (%)  
+- **Policy Marker:** Vertical dotted line indicating the year of national vaccine adoption  
+- **Background:** White before policy; lightly tinted after  
+- **Visuals:** Area chart for cancer risk, line chart for coverage, unified color theme across countries 
 
 In Tableau, these sheets are combined into a **scrollable small-multiple dashboard** that avoids clutter from overlapping multi-country line charts.
 
