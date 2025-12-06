@@ -1,7 +1,7 @@
 | [Home Page](https://joannachang1028.github.io/JoannaChang-dataviz-portfolio/) | [Visualizing Government Debt](visualizing-government-debt) | [Critique by Design](critique-by-design) | [Final project I](final-project-part-one) | [Final project II](final-project-part-two) | [Final project III](final-project-part-three) |
 
 # The Final Data Story
-[Slidedeck](https://preview.shorthand.com/i9yvfHkKNbB3BrV4#group-section-Looking-Ahead-RXYdpZPziH)
+[Slidedeck](https://preview.shorthand.com/i9ywfHkKNbB38rV4)
 
 In just a few years, artificial intelligence has moved from the sidelines into everyday routines. As adoption grows around the world, a clear tension is emerging between how people currently use AI and what they actually hope it could do for them.
 
