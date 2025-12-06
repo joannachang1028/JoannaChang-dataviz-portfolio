@@ -53,4 +53,4 @@ Key steps documented in the repository:
 
 **Persona & Impact:** The project centers on "overwhelmed graduate students," using relatable storytelling and targeted tool demos to motivate effective AI adoption.
 
-For the complete story and results, view the Shorthand presentation: [Final Project Presentation](https://preview.shorthand.com/i9ywfHkKNbB38rV4#group-section-Looking-Ahead-RXYdpZPziH).
+For the complete story and results, view the Shorthand presentation: [Final Project Presentation](https://preview.shorthand.com/i9ywfHkKNbB38rV4/responsive/desktop).
