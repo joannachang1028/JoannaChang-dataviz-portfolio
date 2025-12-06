@@ -14,31 +14,44 @@ The final chapters look ahead, highlighting practical tools that people can star
 Together, the presentation shows a public that is hopeful but still figuring things out: excited about the possibilities, unsure about the boundaries, and eager for guidance. That’s where the call to action comes in: an invitation to explore AI more intentionally, choose tools that genuinely support personal and professional goals, and take the first steps toward using AI in a way that feels purposeful rather than accidental.
 
 # Changes made since Part II
-> Include few paragraphs that reflects on changes you made since the completion of Part II. 
+- **Refined target audience**  
+  Shifted the story explicitly toward *graduate students*, based on interview feedback suggesting they would benefit most from practical, actionable AI guidance.
 
-Text here!
+- **Tightened narrative flow**  
+  Shortened dense text sections—especially the part on the 68% text-to-text usage—and added clearer transitions to guide readers from current behaviors to future aspirations.
+
+- **Improved visual pacing**  
+  Broke long paragraphs into smaller blocks and added brief section headers to make the storyline easier to follow.
+
+- **Strengthened call to action**  
+  Made the final section more specific by offering direct next steps and tool suggestions that help students close the gap between intent and actual AI use
 
 ## The audience
-> Talk about who you identified as the audience for your final data story.  Include any other information you've used that helped you narrow the focus (e.g. insights from your interviews, personas, etc.).  Note any specific adjustments you made to your final project to make it work for your audience.
+- **Focused on graduate students**  
+  Interviews showed they are aware of AI but often unsure how to use it effectively.
 
-Text here!
+- **Interview insights shaped the scope**  
+  Students expressed needs around productivity, assignment planning, and job applications.
+
+- **Persona: “Overwhelmed graduate student”**  
+  Helped anchor the story to readers juggling coursework, recruiting, and daily tasks.
+
+- **Adjusted tone and examples**  
+  Narrative and recommendations were rewritten to directly address real student workflows.
 
 ## Final design decisions
-> You can specifically break out your design decisions here, or include it under *Changes made since Part II* and delete this section. Talk about the design decisions you had to make along the way, and reflect on anything in particular that stands out to you that you learned working through the process.  Include any other information that helps round out your data story. 
+- **Simplified and tightened text**  
+  Reduced dense sections and clarified transitions for smoother reading.
 
-Text here!
+- **Improved pacing and structure**  
+  Broke long text into shorter parts and added light section headers.
+
+- **Strengthened the call to action**  
+  Ended with specific AI tool with demo video showing how it can help us, providing huge motivation for the audiences to use it.
+
 
 ## References
-> **You should have already included detailed references on your Shorthand story** - if so, you do not need to list them twice, unless you used additional references for specific to your writeup. Use this section to capture any additional special notes or information necessary. If there is additional information for your shorthand readers that you've placed on this page, link from Shorthand to this page. Make sure to double-check that you aren't using copyright material and that you have added / updated any citations or other content that you used to create your data story.  Make sure you have cited external sources correctly.
+All references are cited and listed in the shorthand presentation deck. 
 
 ## AI acknowledgements
-> If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here.
-
-Text here!
-
-# Final thoughts
-> You can summarize any final thoughts / reflections that don't fit well in the previous sections here.  How did it go?  What did you run out of time for, or wish you had a chance to revisit?  What were you most excited about?  Include any final reflections as you think they might help us understand your process.  If you already included such reflections elsewhere, you can delete this section. 
-
-Text here!
-
-
+AI was used for grammar and proofreading.
