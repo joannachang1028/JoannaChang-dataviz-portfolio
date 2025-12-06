@@ -1,4 +1,4 @@
-| [home page](https://joannachang1028.github.io/JoannaChang-dataviz-portfolio/) | [Visualizing Government Debt](visualizing-government-debt) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://joannachang1028.github.io/JoannaChang-dataviz-portfolio/) | [Visualizing Government Debt](visualizing-government-debt) | [Critique by Design](critique-by-design) | [Final project I](final-project-part-one) | [Final project II](final-project-part-two) | [Final project III](final-project-part-three) |
 
 # About me  
 As a life-long learner, my journey from fast-moving consumer goods to medical devices and ultimately pharmaceuticals has been a deliberate path to deepen my understanding of healthcare. With five years of experience across Johnson & Johnson and Merck KGaA, I have immersed myself in anatomy and surgical procedures to support surgeons with targeted solutions and expanded my focus to oncology, gaining a holistic view of the patient journey. These experiences ignited my passion for healthcare policy and analytics and convinced me of the power of data to improve patient outcomes.  
@@ -13,12 +13,17 @@ Outside of work and study, I'm a strength training enthusiast and avid learner o
 - **Developing clear, compelling narratives with data and conducting user research to ensure those stories resonate** – based on the syllabus, I'm especially interested in crafting persuasive narratives for specific audiences and using user research to make sure my visualizations are effective.  
 
 # Portfolio  
-Below are placeholders for the assignments and final project I'll complete during the course. I'll update these links as I finish each deliverable.  
 
 ## Assignment 1: Visualizing Government Debt  
 [Visualizing Government Debt](visualizing-government-debt)  
 
-In this assignment I'll explore government debt data and create a visualization that tells an insightful story about debt trends. I'll set up a new page for this assignment and link it here.  
+In this assignment, I constructed an OECD government debt heatmap (2007–2024) to provide a broad, comparative view of how debt-to-GDP ratios have shifted across countries over time. While the heatmap effectively highlighted overall patterns and periods of rapid change, it was less suited for explaining deeper structural differences among regions.
+
+To address this, my  focuses on a redesigned visualization  examines the long-standing fiscal discipline divide between Northern and Southern Europe. Using the same OECD dataset, I grouped countries into the two regions to illustrate how Northern European economies have generally maintained lower and more stable debt levels, whereas Southern Europe has continued to face elevated debt burdens following the 2008 global financial crisis and the COVID-19 pandemic.
+
+The redesign uses a dual-line approach: thin lines for individual countries and bold lines for regional averages. This layering enables viewers to see both country-level variability and overarching regional trajectories. I selected teal for Northern Europe and orange for Southern Europe to convey contrasting themes of stability versus fiscal strain, and added a dashed 100% reference line to signal a common debt threshold. Together, these design elements help communicate a clearer narrative of divergence that was less apparent in the heatmap.
+
+*AI assistance acknowledgment: ChatGPT was used for proofreading and refinement of writing.*
 
 ## Assignment 3  & 4: Critique by Design  
 [Critique by Design](critique-by-design)  
