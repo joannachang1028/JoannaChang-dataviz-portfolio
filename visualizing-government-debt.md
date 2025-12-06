@@ -16,5 +16,5 @@ In my redesign of OECD Government Debt Heatmap (2007–2024) , I wanted to highl
 
 Compared with my heatmap, this version tells a clearer story instead of just showing values. The heatmap worked well for broad comparisons, but the line chart emphasizes how two regions diverged over time. I used teal for Northern Europe and orange for Southern Europe to convey stability versus risk, and added a dashed 100 % line to mark the debt threshold. Overall, this design is more effective in communicating the long-term fiscal gap between the two regions.
 
-References & AI Acknowledgement:\
+**References & AI Acknowledgement:**\
 Writing assistance: ChatGPT for proofreading and clarity.
