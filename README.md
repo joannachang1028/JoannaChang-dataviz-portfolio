@@ -23,12 +23,34 @@ To address this, my  focuses on a redesigned visualization  examines the long-st
 
 The redesign uses a dual-line approach: thin lines for individual countries and bold lines for regional averages. This layering enables viewers to see both country-level variability and overarching regional trajectories. I selected teal for Northern Europe and orange for Southern Europe to convey contrasting themes of stability versus fiscal strain, and added a dashed 100% reference line to signal a common debt threshold. Together, these design elements help communicate a clearer narrative of divergence that was less apparent in the heatmap.
 
-*AI assistance acknowledgment: ChatGPT was used for proofreading and refinement of writing.*
 
-## Assignment 3  & 4: Critique by Design  
-[Critique by Design](critique-by-design)  
 
-This assignment will focus on critiquing an existing visualization and redesigning it for clarity and impact. I'll provide my critique and redesigned visualization on the linked page.  
+## Assignment 2: Critique by Design
+[Critique by Design](critique-by-design) 
+For Assignment 2, I conducted an in-depth critique and redesign of the "HPV vaccination: How the world can eliminate cervical cancer" visualization series published by Our World in Data. My analysis identified that while individual charts were clear and effective, there was a lack of narrative cohesion and integrated context across the series.
 
-## Final project  
-Stay tuned for my final project! I'll use the tools and techniques learned in this course to create a comprehensive data storytelling piece. I'll provide a high-level description and link once the project is underway. 
+I proposed and implemented a redesign that builds a unified dashboard, connecting key dimensions: national HPV vaccination policy adoption, coverage rates, and cervical cancer outcomes. This involved detailed dataset integration and exploratory analysis, depicted in both a design sketch and interactive Tableau dashboard. My solution features per-country small multiples, combining area charts for cancer risk and line charts for vaccination coverage with marked policy adoption years. User testing with MISM classmates highlighted the need for better value-year alignment, trend line visualization, and reduced comparison clutter, all of which were addressed in the redesign. You can view the full process and final visualization here: [Critique by Design](critique-by-design.md).
+
+*Technical work included*: EDA and dataset cleaning (see [Data preprocessing and EDA_Critique and Redesign.ipynb](Data%20preprocessing%20and%20EDA_Critique%20and%20Redesign.ipynb)), design sketching, and embedding an interactive dashboard.
+
+
+
+## Final Project
+
+**Title:** The AI Usage Gap: Are We Really Using AI the Way We Want To?
+
+My final project investigates how artificial intelligence (AI) tools are integrated into daily life, exploring the gap between current usage and user aspirations. The work follows a data-driven narrative:
+- Rapid growth of AI users and the increasing expectation of AI skills from employers.
+- Survey and interview-based insights on how Americans and graduate students actually use AI versus how they wish it could support them.
+- Practical recommendations for closing the "AI usage gap," especially targeting graduate students.
+
+Key steps documented in the repository:
+1. **Data Story and Research:** Explores adoption, usage, and the desire for more supportive AI, culminating in a call-to-action for readers ([final-project-part-one.md](final-project-part-one.md)).
+2. **Wireframes and User Feedback:** Storyboard and preliminary prototypes tested with graduate students to validate relevance and clarify message ([final-project-part-two.md](final-project-part-two.md)).
+3. **Synthesized Design:** Interview findings led to a refined, student-focused approach, with improved pacing, clearer transitions, and actionable recommendations—demonstrated in the final Shorthand site ([final-project-part-three.md](final-project-part-three.md)).
+
+**Featured tools:** Tableau for interactive data visualization, Shorthand for narrative integration, and a suite of AI tools to support learning, note-taking, and job applications.
+
+**Persona & Impact:** The project centers on "overwhelmed graduate students," using relatable storytelling and targeted tool demos to motivate effective AI adoption.
+
+For the complete story and results, view the Shorthand presentation: [Final Project Presentation](https://preview.shorthand.com/i9ywfHkKNbB38rV4#group-section-Looking-Ahead-RXYdpZPziH).
