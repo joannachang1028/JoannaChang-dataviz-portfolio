@@ -4,8 +4,7 @@
 
 ## OECD Government Debt Heatmap (2007–2024)
 
-<iframe src="https://public.tableau.com/views/OECDGovernmentDebtGDPRatioHeatmap_2007-2024/OECDGovernmentDebtHeatmap2007-2024?:embed=yes" width="900" height="700"></iframe>
-
+<iframe src="https://public.tableau.com/views/OECDGovernmentDebtGDPRatioHeatmap_2007-2024/OECDGovernmentDebtHeatmap2007-2024?:embed=y&:showVizHome=no" width="100%" height="700" frameborder="0"> </iframe>
 
 ## Fiscal Discipline Divide: Northern vs Southern Europe
 
