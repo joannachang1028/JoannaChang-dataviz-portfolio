@@ -1,3 +1,5 @@
+| [home page](https://joannachang1028.github.io/JoannaChang-dataviz-portfolio/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+
 # About me  
 As a life-long learner, my journey from fast-moving consumer goods to medical devices and ultimately pharmaceuticals has been a deliberate path to deepen my understanding of healthcare. With five years of experience across Johnson & Johnson and Merck KGaA, I have immersed myself in anatomy and surgical procedures to support surgeons with targeted solutions and expanded my focus to oncology, gaining a holistic view of the patient journey. These experiences ignited my passion for healthcare policy and analytics and convinced me of the power of data to improve patient outcomes.  
 
