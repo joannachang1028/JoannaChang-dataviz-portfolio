@@ -1,11 +1,4 @@
-<p align="center">
-  <a href="https://cmustudent.github.io/tswd-portfolio-templates/">home page</a> |
-  <a href="https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/dataviz-examples">data viz examples</a> |
-  <a href="https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/critique-by-design">critique by design</a> |
-  <a href="https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/final-project-part-one">final project I</a> |
-  final project II |
-  <a href="https://github.com/joannachang1028/JoannaChang-dataviz-portfolio/blob/main/final-project-part-three">final project III</a>
-</p>
+| [Home Page](https://joannachang1028.github.io/JoannaChang-dataviz-portfolio/) | [Visualizing Government Debt](visualizing-government-debt) | [Critique by Design](critique-by-design) | [Final project I](final-project-part-one) | [Final project II](final-project-part-two) | [Final project III](final-project-part-three) |
 
 # Wireframes / Storyboards  
 Below is a walkthrough of my draft Shorthand story, functioning as a **visual storyboard** of the narrative.
