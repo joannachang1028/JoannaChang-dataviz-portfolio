@@ -1,9 +1,17 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 # The final data story
-> Include a link to your final data story on Shorthand, Esri StoryMaps, etc. here. 
+https://preview.shorthand.com/i9ywfHkKNbB38rV4#group-section-Looking-Ahead-RXYdpZPziH
 
-Text here!
+In just a few years, artificial intelligence has moved from the sidelines into everyday routines. As adoption grows around the world, a clear tension is emerging between how people currently use AI and what they actually hope it could do for them.
+
+This story follows that tension. It begins with the rapid rise of AI users and the growing familiarity Americans have with tools like ChatGPT. It then looks at who is using AI, the tasks they rely on it for, and where usage still feels limited. Many adults stay within basic text-to-text interactions, even though they’re curious about richer formats such as images, audio, and video.
+
+From there, the narrative turns to what people wish AI could offer—support with daily productivity, help automating routine tasks, and a sense of having a reliable digital assistant. At the same time, most individuals report feeling that they have only a little control over how AI is incorporated into their lives.
+
+The final chapters look ahead, highlighting practical tools that people can start using today. These examples—whether simplifying job applications, organizing study materials, or capturing meeting notes—show how AI can meaningfully lighten everyday workloads.
+
+Together, the presentation shows a public that is hopeful but still figuring things out: excited about the possibilities, unsure about the boundaries, and eager for guidance. That’s where the call to action comes in: an invitation to explore AI more intentionally, choose tools that genuinely support personal and professional goals, and take the first steps toward using AI in a way that feels purposeful rather than accidental.
 
 # Changes made since Part II
 > Include few paragraphs that reflects on changes you made since the completion of Part II. 
